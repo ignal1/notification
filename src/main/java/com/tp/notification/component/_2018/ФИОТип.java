@@ -6,33 +6,33 @@ import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlType;
 
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "ФИОТип")
-public class ФИОТип {
+@XmlType(name = "Р¤РРћРўРёРї")
+public class Р¤РРћРўРёРї {
 
-    @XmlAttribute(name = "Фамилия", required = true)
-    protected String фамилия;
-    @XmlAttribute(name = "Имя", required = true)
-    protected String имя;
-    @XmlAttribute(name = "Отчество")
-    protected String отчество;
+    @XmlAttribute(name = "Р¤Р°РјРёР»РёСЏ", required = true)
+    protected String С„Р°РјРёР»РёСЏ;
+    @XmlAttribute(name = "РРјСЏ", required = true)
+    protected String РёРјСЏ;
+    @XmlAttribute(name = "РћС‚С‡РµСЃС‚РІРѕ")
+    protected String РѕС‚С‡РµСЃС‚РІРѕ;
 
-    public String getФамилия() {
-        return фамилия;
+    public String getР¤Р°РјРёР»РёСЏ() {
+        return С„Р°РјРёР»РёСЏ;
     }
-    public void setФамилия(String value) {
-        this.фамилия = value;
+    public void setР¤Р°РјРёР»РёСЏ(String value) {
+        this.С„Р°РјРёР»РёСЏ = value;
     }
-    public String getИмя() {
-        return имя;
+    public String getРРјСЏ() {
+        return РёРјСЏ;
     }
-    public void setИмя(String value) {
-        this.имя = value;
+    public void setРРјСЏ(String value) {
+        this.РёРјСЏ = value;
     }
-    public String getОтчество() {
-        return отчество;
+    public String getРћС‚С‡РµСЃС‚РІРѕ() {
+        return РѕС‚С‡РµСЃС‚РІРѕ;
     }
-    public void setОтчество(String value) {
-        this.отчество = value;
+    public void setРћС‚С‡РµСЃС‚РІРѕ(String value) {
+        this.РѕС‚С‡РµСЃС‚РІРѕ = value;
     }
 
 }

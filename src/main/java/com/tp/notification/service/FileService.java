@@ -1,8 +1,8 @@
 package com.tp.notification.service;
 
-import com.tp.notification.component._2012.Файл2012;
-import com.tp.notification.component._2018.Файл2018;
-import com.tp.notification.component._2019.Файл;
+import com.tp.notification.component._2012.Р¤Р°Р№Р»2012;
+import com.tp.notification.component._2018.Р¤Р°Р№Р»2018;
+import com.tp.notification.component._2019.Р¤Р°Р№Р»;
 import com.tp.notification.controller.FileController;
 import com.tp.notification.entity.FileInf;
 import com.tp.notification.exception.NotificationException;
@@ -108,7 +108,7 @@ public class FileService {
             Files.copy(inputStream, destinationFile, StandardCopyOption.REPLACE_EXISTING);
         }
         catch (Exception e) {
-            throw new NotificationException("Невозможно загрузить файл.", e);
+            throw new NotificationException("РќРµРІРѕР·РјРѕР¶РЅРѕ Р·Р°РіСЂСѓР·РёС‚СЊ С„Р°Р№Р».", e);
         }
         return uuidFileName;
     }
@@ -213,11 +213,11 @@ public class FileService {
                 return resource;
             }
             else {
-                throw new NotificationException("Невозможно загрузить файл");
+                throw new NotificationException("РќРµРІРѕР·РјРѕР¶РЅРѕ Р·Р°РіСЂСѓР·РёС‚СЊ С„Р°Р№Р»");
             }
         }
         catch (NotificationException e) {
-            throw new NotificationException("Невозможно загрузить файл");
+            throw new NotificationException("РќРµРІРѕР·РјРѕР¶РЅРѕ Р·Р°РіСЂСѓР·РёС‚СЊ С„Р°Р№Р»");
         }
     }
 
@@ -233,9 +233,9 @@ public class FileService {
     }
 
     public void convertFile(Path unzipDirectory, String filename, boolean approved) throws Exception {
-        Файл файл = null;
-        Файл2018 файл2018 = null;
-        Файл2012 файл2012 = null;
+        Р¤Р°Р№Р» С„Р°Р№Р» = null;
+        Р¤Р°Р№Р»2018 С„Р°Р№Р»2018 = null;
+        Р¤Р°Р№Р»2012 С„Р°Р№Р»2012 = null;
         try{
             Path file = unzipDirectory.getParent().resolve(filename);
             unzipper.unpzip(file, unzipDirectory);
@@ -244,36 +244,36 @@ public class FileService {
             if(taxpayer.get(3).equals("5.04")){
                 parseSheets(unzipDirectory, approved, 4);
                 notificationFactory2019.setFields();
-                файл = notificationFactory2019.populateClasses();
+                С„Р°Р№Р» = notificationFactory2019.populateClasses();
             } else if(taxpayer.get(3).equals("5.03")){
                 parseSheets(unzipDirectory, approved, 3);
                 notificationFactory2018.setFields();
-                файл2018 = notificationFactory2018.populateClasses();
+                С„Р°Р№Р»2018 = notificationFactory2018.populateClasses();
             } else{
                 parseSheets(unzipDirectory, approved, 1);
                 notificationFactory2012.setFields();
-                файл2012 = notificationFactory2012.populateClasses();
+                С„Р°Р№Р»2012 = notificationFactory2012.populateClasses();
             }
         } catch (Exception e){
-            throw new NotificationException("Ошибка шаблона. Проверьте заполнение шаблона. Если эта ошибка будет возникать в дальнейшем, свяжитесь с администратором.");
+            throw new NotificationException("РћС€РёР±РєР° С€Р°Р±Р»РѕРЅР°. РџСЂРѕРІРµСЂСЊС‚Рµ Р·Р°РїРѕР»РЅРµРЅРёРµ С€Р°Р±Р»РѕРЅР°. Р•СЃР»Рё СЌС‚Р° РѕС€РёР±РєР° Р±СѓРґРµС‚ РІРѕР·РЅРёРєР°С‚СЊ РІ РґР°Р»СЊРЅРµР№С€РµРј, СЃРІСЏР¶РёС‚РµСЃСЊ СЃ Р°РґРјРёРЅРёСЃС‚СЂР°С‚РѕСЂРѕРј.");
         }
         JAXBContext context = null;
         if(taxpayer.get(3).equals("5.04")){
-            context = JAXBContext.newInstance(Файл.class);
+            context = JAXBContext.newInstance(Р¤Р°Р№Р».class);
         } else if(taxpayer.get(3).equals("5.03")){
-            context = JAXBContext.newInstance(Файл2018.class);
+            context = JAXBContext.newInstance(Р¤Р°Р№Р»2018.class);
         } else{
-            context = JAXBContext.newInstance(Файл2012.class);
+            context = JAXBContext.newInstance(Р¤Р°Р№Р»2012.class);
         }
         Marshaller marshaller = context.createMarshaller();
         marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, Boolean.TRUE);
         marshaller.setProperty(Marshaller.JAXB_ENCODING, "windows-1251");
         if(taxpayer.get(3).equals("5.04")){
-            marshaller.marshal(файл, unzipDirectory.resolve("resultDocument.xml").toFile());
+            marshaller.marshal(С„Р°Р№Р», unzipDirectory.resolve("resultDocument.xml").toFile());
         } else if(taxpayer.get(3).equals("5.03")){
-            marshaller.marshal(файл2018, unzipDirectory.resolve("resultDocument.xml").toFile());
+            marshaller.marshal(С„Р°Р№Р»2018, unzipDirectory.resolve("resultDocument.xml").toFile());
         } else{
-            marshaller.marshal(файл2012, unzipDirectory.resolve("resultDocument.xml").toFile());
+            marshaller.marshal(С„Р°Р№Р»2012, unzipDirectory.resolve("resultDocument.xml").toFile());
         }
     }
 

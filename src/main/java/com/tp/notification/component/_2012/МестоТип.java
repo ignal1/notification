@@ -6,40 +6,40 @@ import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlType;
 
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "МестоТип")
-public class МестоТип {
+@XmlType(name = "РњРµСЃС‚РѕРўРёРї")
+public class РњРµСЃС‚РѕРўРёРї {
 
-    @XmlAttribute(name = "ОКСМ", required = true)
-    protected String оксм;
-    @XmlAttribute(name = "КодРегион")
-    protected String кодРегион;
-    @XmlAttribute(name = "Город")
-    protected String город;
-    @XmlAttribute(name = "НаселПункт")
-    protected String населПункт;
+    @XmlAttribute(name = "РћРљРЎРњ", required = true)
+    protected String РѕРєСЃРј;
+    @XmlAttribute(name = "РљРѕРґР РµРіРёРѕРЅ")
+    protected String РєРѕРґР РµРіРёРѕРЅ;
+    @XmlAttribute(name = "Р“РѕСЂРѕРґ")
+    protected String РіРѕСЂРѕРґ;
+    @XmlAttribute(name = "РќР°СЃРµР»РџСѓРЅРєС‚")
+    protected String РЅР°СЃРµР»РџСѓРЅРєС‚;
 
-    public String getОКСМ() {
-        return оксм;
+    public String getРћРљРЎРњ() {
+        return РѕРєСЃРј;
     }
-    public void setОКСМ(String value) {
-        this.оксм = value;
+    public void setРћРљРЎРњ(String value) {
+        this.РѕРєСЃРј = value;
     }
-    public String getКодРегион() {
-        return кодРегион;
+    public String getРљРѕРґР РµРіРёРѕРЅ() {
+        return РєРѕРґР РµРіРёРѕРЅ;
     }
-    public void setКодРегион(String value) {
-        this.кодРегион = value;
+    public void setРљРѕРґР РµРіРёРѕРЅ(String value) {
+        this.РєРѕРґР РµРіРёРѕРЅ = value;
     }
-    public String getГород() {
-        return город;
+    public String getР“РѕСЂРѕРґ() {
+        return РіРѕСЂРѕРґ;
     }
-    public void setГород(String value) {
-        this.город = value;
+    public void setР“РѕСЂРѕРґ(String value) {
+        this.РіРѕСЂРѕРґ = value;
     }
-    public String getНаселПункт() {
-        return населПункт;
+    public String getРќР°СЃРµР»РџСѓРЅРєС‚() {
+        return РЅР°СЃРµР»РџСѓРЅРєС‚;
     }
-    public void setНаселПункт(String value) {
-        this.населПункт = value;
+    public void setРќР°СЃРµР»РџСѓРЅРєС‚(String value) {
+        this.РЅР°СЃРµР»РџСѓРЅРєС‚ = value;
     }
 }

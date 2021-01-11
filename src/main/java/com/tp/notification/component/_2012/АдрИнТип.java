@@ -6,24 +6,24 @@ import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlType;
 
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "АдрИнТип")
-public class АдрИнТип {
+@XmlType(name = "РђРґСЂРРЅРўРёРї")
+public class РђРґСЂРРЅРўРёРї {
 
-    @XmlAttribute(name = "ОКСМ", required = true)
-    protected String оксм;
-    @XmlAttribute(name = "АдрИнТекст", required = true)
-    protected String адрИнТекст;
+    @XmlAttribute(name = "РћРљРЎРњ", required = true)
+    protected String РѕРєСЃРј;
+    @XmlAttribute(name = "РђРґСЂРРЅРўРµРєСЃС‚", required = true)
+    protected String Р°РґСЂРРЅРўРµРєСЃС‚;
 
-    public String getОКСМ() {
-        return оксм;
+    public String getРћРљРЎРњ() {
+        return РѕРєСЃРј;
     }
-    public void setОКСМ(String value) {
-        this.оксм = value;
+    public void setРћРљРЎРњ(String value) {
+        this.РѕРєСЃРј = value;
     }
-    public String getАдрИнТекст() {
-        return адрИнТекст;
+    public String getРђРґСЂРРЅРўРµРєСЃС‚() {
+        return Р°РґСЂРРЅРўРµРєСЃС‚;
     }
-    public void setАдрИнТекст(String value) {
-        this.адрИнТекст = value;
+    public void setРђРґСЂРРЅРўРµРєСЃС‚(String value) {
+        this.Р°РґСЂРРЅРўРµРєСЃС‚ = value;
     }
 }

@@ -76,7 +76,7 @@ public class FileController {
         if(!dir.equals("template") && !dir.equals("template_old")){
             FileInf fileInf = new FileInf();
             fileInf.setRealFileName(uuidFileName);
-            fileInf.setUserFileName("Τΰιλ");
+            fileInf.setUserFileName("Π€Π°ΠΉΠ»");
 
             Path path = directory.resolve(uuidFileName);
             FileTime fileTime = Files.readAttributes(path.toAbsolutePath(), BasicFileAttributes.class).creationTime();

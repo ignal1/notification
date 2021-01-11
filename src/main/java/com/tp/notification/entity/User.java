@@ -20,12 +20,12 @@ public class User implements UserDetails {
     @SequenceGenerator(name="user_id_generator", sequenceName = "user_seq", initialValue = 2, allocationSize = 1)
     private Long id;
 
-    @NotBlank(message = "Поле не может быть пустым")
-    @Length(max = 20, message = "Длина не может превышать 20 символов")
+    @NotBlank(message = "РџРѕР»Рµ РЅРµ РјРѕР¶РµС‚ Р±С‹С‚СЊ РїСѓСЃС‚С‹Рј")
+    @Length(max = 20, message = "Р”Р»РёРЅР° РЅРµ РјРѕР¶РµС‚ РїСЂРµРІС‹С€Р°С‚СЊ 20 СЃРёРјРІРѕР»РѕРІ")
     @CharacterLimitation
     private String username;
 
-    @NotBlank(message = "Поле не может быть пустым")
+    @NotBlank(message = "РџРѕР»Рµ РЅРµ РјРѕР¶РµС‚ Р±С‹С‚СЊ РїСѓСЃС‚С‹Рј")
     private String password;
 
     @Column(columnDefinition="boolean default false")
@@ -35,9 +35,9 @@ public class User implements UserDetails {
 
     private Date dateOfCreation;
 
-    @NotBlank(message = "Поле не может быть пустым")
-    @Email(message = "Email некорректный")
-    @Length(max = 100, message = "Длина не может превышать 100 символов")
+    @NotBlank(message = "РџРѕР»Рµ РЅРµ РјРѕР¶РµС‚ Р±С‹С‚СЊ РїСѓСЃС‚С‹Рј")
+    @Email(message = "Email РЅРµРєРѕСЂСЂРµРєС‚РЅС‹Р№")
+    @Length(max = 100, message = "Р”Р»РёРЅР° РЅРµ РјРѕР¶РµС‚ РїСЂРµРІС‹С€Р°С‚СЊ 100 СЃРёРјРІРѕР»РѕРІ")
     private String email;
 
     private String firstName;

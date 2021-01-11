@@ -6,41 +6,41 @@ import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlType;
 
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "УдЛичнФЛТип")
-public class УдЛичнФЛТип {
+@XmlType(name = "РЈРґР›РёС‡РЅР¤Р›РўРёРї")
+public class РЈРґР›РёС‡РЅР¤Р›РўРёРї {
 
-    @XmlAttribute(name = "КодВидДок", required = true)
-    protected String кодВидДок;
-    @XmlAttribute(name = "СерНомДок", required = true)
-    protected String серНомДок;
-    @XmlAttribute(name = "ДатаДок", required = true)
-    protected String датаДок;
-    @XmlAttribute(name = "ВыдДок", required = true)
-    protected String выдДок;
+    @XmlAttribute(name = "РљРѕРґР’РёРґР”РѕРє", required = true)
+    protected String РєРѕРґР’РёРґР”РѕРє;
+    @XmlAttribute(name = "РЎРµСЂРќРѕРјР”РѕРє", required = true)
+    protected String СЃРµСЂРќРѕРјР”РѕРє;
+    @XmlAttribute(name = "Р”Р°С‚Р°Р”РѕРє", required = true)
+    protected String РґР°С‚Р°Р”РѕРє;
+    @XmlAttribute(name = "Р’С‹РґР”РѕРє", required = true)
+    protected String РІС‹РґР”РѕРє;
 
-    public String getКодВидДок() {
-        return кодВидДок;
+    public String getРљРѕРґР’РёРґР”РѕРє() {
+        return РєРѕРґР’РёРґР”РѕРє;
     }
-    public void setКодВидДок(String value) {
-        this.кодВидДок = value;
+    public void setРљРѕРґР’РёРґР”РѕРє(String value) {
+        this.РєРѕРґР’РёРґР”РѕРє = value;
     }
-    public String getСерНомДок() {
-        return серНомДок;
+    public String getРЎРµСЂРќРѕРјР”РѕРє() {
+        return СЃРµСЂРќРѕРјР”РѕРє;
     }
-    public void setСерНомДок(String value) {
-        this.серНомДок = value;
+    public void setРЎРµСЂРќРѕРјР”РѕРє(String value) {
+        this.СЃРµСЂРќРѕРјР”РѕРє = value;
     }
-    public String getДатаДок() {
-        return датаДок;
+    public String getР”Р°С‚Р°Р”РѕРє() {
+        return РґР°С‚Р°Р”РѕРє;
     }
-    public void setДатаДок(String value) {
-        this.датаДок = value;
+    public void setР”Р°С‚Р°Р”РѕРє(String value) {
+        this.РґР°С‚Р°Р”РѕРє = value;
     }
-    public String getВыдДок() {
-        return выдДок;
+    public String getР’С‹РґР”РѕРє() {
+        return РІС‹РґР”РѕРє;
     }
-    public void setВыдДок(String value) {
-        this.выдДок = value;
+    public void setР’С‹РґР”РѕРє(String value) {
+        this.РІС‹РґР”РѕРє = value;
     }
 
 }

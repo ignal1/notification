@@ -6,230 +6,230 @@ import java.util.ArrayList;
 import java.util.List;
 
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "", propOrder = {"документ"})
-@XmlRootElement(name = "Файл")
-public class Файл2012 {
+@XmlType(name = "", propOrder = {"РґРѕРєСѓРјРµРЅС‚"})
+@XmlRootElement(name = "Р¤Р°Р№Р»")
+public class Р¤Р°Р№Р»2012 {
 
-    @XmlElement(name = "Документ", required = true)
-    protected Файл2012.Документ документ;
+    @XmlElement(name = "Р”РѕРєСѓРјРµРЅС‚", required = true)
+    protected Р¤Р°Р№Р»2012.Р”РѕРєСѓРјРµРЅС‚ РґРѕРєСѓРјРµРЅС‚;
 
     @XmlAttribute(name = "xmlns:xsi", required = true)
     protected String xmlnsXsi = "http://www.w3.org/2001/XMLSchema-instance";
-    @XmlAttribute(name = "ИдФайл", required = true)
-    protected String идФайл;
-    @XmlAttribute(name = "ВерсПрог", required = true)
-    protected String версПрог;
-    @XmlAttribute(name = "ВерсФорм", required = true)
-    protected String версФорм;
+    @XmlAttribute(name = "РРґР¤Р°Р№Р»", required = true)
+    protected String РёРґР¤Р°Р№Р»;
+    @XmlAttribute(name = "Р’РµСЂСЃРџСЂРѕРі", required = true)
+    protected String РІРµСЂСЃРџСЂРѕРі;
+    @XmlAttribute(name = "Р’РµСЂСЃР¤РѕСЂРј", required = true)
+    protected String РІРµСЂСЃР¤РѕСЂРј;
 
-    public Файл2012.Документ getДокумент() {
-        return документ;
+    public Р¤Р°Р№Р»2012.Р”РѕРєСѓРјРµРЅС‚ getР”РѕРєСѓРјРµРЅС‚() {
+        return РґРѕРєСѓРјРµРЅС‚;
     }
-    public void setДокумент(Файл2012.Документ value) {
-        this.документ = value;
+    public void setР”РѕРєСѓРјРµРЅС‚(Р¤Р°Р№Р»2012.Р”РѕРєСѓРјРµРЅС‚ value) {
+        this.РґРѕРєСѓРјРµРЅС‚ = value;
     }
-    public String getИдФайл() {
-        return идФайл;
+    public String getРРґР¤Р°Р№Р»() {
+        return РёРґР¤Р°Р№Р»;
     }
-    public void setИдФайл(String value) {
-        this.идФайл = value;
+    public void setРРґР¤Р°Р№Р»(String value) {
+        this.РёРґР¤Р°Р№Р» = value;
     }
-    public String getВерсПрог() {
-        return версПрог;
+    public String getР’РµСЂСЃРџСЂРѕРі() {
+        return РІРµСЂСЃРџСЂРѕРі;
     }
-    public void setВерсПрог(String value) {
-        this.версПрог = value;
+    public void setР’РµСЂСЃРџСЂРѕРі(String value) {
+        this.РІРµСЂСЃРџСЂРѕРі = value;
     }
-    public String getВерсФорм() { return версФорм; }
-    public void setВерсФорм(String value) {
-        this.версФорм = value;
+    public String getР’РµСЂСЃР¤РѕСЂРј() { return РІРµСЂСЃР¤РѕСЂРј; }
+    public void setР’РµСЂСЃР¤РѕСЂРј(String value) {
+        this.РІРµСЂСЃР¤РѕСЂРј = value;
     }
 
 
     @XmlAccessorType(XmlAccessType.FIELD)
-    @XmlType(name = "", propOrder = { "свНП", "подписант", "увКонтрСд" })
-    public static class Документ {
+    @XmlType(name = "", propOrder = { "СЃРІРќРџ", "РїРѕРґРїРёСЃР°РЅС‚", "СѓРІРљРѕРЅС‚СЂРЎРґ" })
+    public static class Р”РѕРєСѓРјРµРЅС‚ {
 
-        @XmlElement(name = "СвНП", required = true)
-        protected Файл2012.Документ.СвНП свНП;
-        @XmlElement(name = "Подписант", required = true)
-        protected Файл2012.Документ.Подписант подписант;
-        @XmlElement(name = "УвКонтрСд", required = true)
-        protected Файл2012.Документ.УвКонтрСд увКонтрСд;
+        @XmlElement(name = "РЎРІРќРџ", required = true)
+        protected Р¤Р°Р№Р»2012.Р”РѕРєСѓРјРµРЅС‚.РЎРІРќРџ СЃРІРќРџ;
+        @XmlElement(name = "РџРѕРґРїРёСЃР°РЅС‚", required = true)
+        protected Р¤Р°Р№Р»2012.Р”РѕРєСѓРјРµРЅС‚.РџРѕРґРїРёСЃР°РЅС‚ РїРѕРґРїРёСЃР°РЅС‚;
+        @XmlElement(name = "РЈРІРљРѕРЅС‚СЂРЎРґ", required = true)
+        protected Р¤Р°Р№Р»2012.Р”РѕРєСѓРјРµРЅС‚.РЈРІРљРѕРЅС‚СЂРЎРґ СѓРІРљРѕРЅС‚СЂРЎРґ;
 
-        @XmlAttribute(name = "КНД", required = true)
-        protected String кнд;
-        @XmlAttribute(name = "ДатаДок", required = true)
-        protected String датаДок;
-        @XmlAttribute(name = "ОтчетГод", required = true)
+        @XmlAttribute(name = "РљРќР”", required = true)
+        protected String РєРЅРґ;
+        @XmlAttribute(name = "Р”Р°С‚Р°Р”РѕРє", required = true)
+        protected String РґР°С‚Р°Р”РѕРє;
+        @XmlAttribute(name = "РћС‚С‡РµС‚Р“РѕРґ", required = true)
         @XmlSchemaType(name = "gYear")
-        protected String отчетГод;
-        @XmlAttribute(name = "КодНО", required = true)
-        protected String кодНО;
-        @XmlAttribute(name = "НомКорр", required = true)
-        protected String номКорр;
-        @XmlAttribute(name = "ПоМесту", required = true)
-        protected String поМесту;
+        protected String РѕС‚С‡РµС‚Р“РѕРґ;
+        @XmlAttribute(name = "РљРѕРґРќРћ", required = true)
+        protected String РєРѕРґРќРћ;
+        @XmlAttribute(name = "РќРѕРјРљРѕСЂСЂ", required = true)
+        protected String РЅРѕРјРљРѕСЂСЂ;
+        @XmlAttribute(name = "РџРѕРњРµСЃС‚Сѓ", required = true)
+        protected String РїРѕРњРµСЃС‚Сѓ;
 
-        public Файл2012.Документ.СвНП getСвНП() {
-            return свНП;
+        public Р¤Р°Р№Р»2012.Р”РѕРєСѓРјРµРЅС‚.РЎРІРќРџ getРЎРІРќРџ() {
+            return СЃРІРќРџ;
         }
-        public void setСвНП(Файл2012.Документ.СвНП value) {
-            this.свНП = value;
+        public void setРЎРІРќРџ(Р¤Р°Р№Р»2012.Р”РѕРєСѓРјРµРЅС‚.РЎРІРќРџ value) {
+            this.СЃРІРќРџ = value;
         }
-        public Файл2012.Документ.Подписант getПодписант() {
-            return подписант;
+        public Р¤Р°Р№Р»2012.Р”РѕРєСѓРјРµРЅС‚.РџРѕРґРїРёСЃР°РЅС‚ getРџРѕРґРїРёСЃР°РЅС‚() {
+            return РїРѕРґРїРёСЃР°РЅС‚;
         }
-        public void setПодписант(Файл2012.Документ.Подписант value) {
-            this.подписант = value;
+        public void setРџРѕРґРїРёСЃР°РЅС‚(Р¤Р°Р№Р»2012.Р”РѕРєСѓРјРµРЅС‚.РџРѕРґРїРёСЃР°РЅС‚ value) {
+            this.РїРѕРґРїРёСЃР°РЅС‚ = value;
         }
-        public Файл2012.Документ.УвКонтрСд getУвКонтрСд() {
-            return увКонтрСд;
+        public Р¤Р°Р№Р»2012.Р”РѕРєСѓРјРµРЅС‚.РЈРІРљРѕРЅС‚СЂРЎРґ getРЈРІРљРѕРЅС‚СЂРЎРґ() {
+            return СѓРІРљРѕРЅС‚СЂРЎРґ;
         }
-        public void setУвКонтрСд(Файл2012.Документ.УвКонтрСд value) {
-            this.увКонтрСд = value;
+        public void setРЈРІРљРѕРЅС‚СЂРЎРґ(Р¤Р°Р№Р»2012.Р”РѕРєСѓРјРµРЅС‚.РЈРІРљРѕРЅС‚СЂРЎРґ value) {
+            this.СѓРІРљРѕРЅС‚СЂРЎРґ = value;
         }
-        public String getКНД() {
-            return кнд;
+        public String getРљРќР”() {
+            return РєРЅРґ;
         }
-        public void setКНД(String value) {
-            this.кнд = value;
+        public void setРљРќР”(String value) {
+            this.РєРЅРґ = value;
         }
-        public String getДатаДок() {
-            return датаДок;
+        public String getР”Р°С‚Р°Р”РѕРє() {
+            return РґР°С‚Р°Р”РѕРє;
         }
-        public void setДатаДок(String value) {
-            this.датаДок = value;
+        public void setР”Р°С‚Р°Р”РѕРє(String value) {
+            this.РґР°С‚Р°Р”РѕРє = value;
         }
-        public String getОтчетГод() {
-            return отчетГод;
+        public String getРћС‚С‡РµС‚Р“РѕРґ() {
+            return РѕС‚С‡РµС‚Р“РѕРґ;
         }
-        public void setОтчетГод(String value) {
-            this.отчетГод = value;
+        public void setРћС‚С‡РµС‚Р“РѕРґ(String value) {
+            this.РѕС‚С‡РµС‚Р“РѕРґ = value;
         }
-        public String getКодНО() {
-            return кодНО;
+        public String getРљРѕРґРќРћ() {
+            return РєРѕРґРќРћ;
         }
-        public void setКодНО(String value) {
-            this.кодНО = value;
+        public void setРљРѕРґРќРћ(String value) {
+            this.РєРѕРґРќРћ = value;
         }
-        public String getНомКорр() {
-            return номКорр;
+        public String getРќРѕРјРљРѕСЂСЂ() {
+            return РЅРѕРјРљРѕСЂСЂ;
         }
-        public void setНомКорр(String value) {
-            this.номКорр = value;
+        public void setРќРѕРјРљРѕСЂСЂ(String value) {
+            this.РЅРѕРјРљРѕСЂСЂ = value;
         }
-        public String getПоМесту() {
-            return поМесту;
+        public String getРџРѕРњРµСЃС‚Сѓ() {
+            return РїРѕРњРµСЃС‚Сѓ;
         }
-        public void setПоМесту(String value) {
-            this.поМесту = value;
+        public void setРџРѕРњРµСЃС‚Сѓ(String value) {
+            this.РїРѕРњРµСЃС‚Сѓ = value;
         }
 
 
         @XmlAccessorType(XmlAccessType.FIELD)
-        @XmlType(name = "", propOrder = { "фио", "свПред" })
-        public static class Подписант {
+        @XmlType(name = "", propOrder = { "С„РёРѕ", "СЃРІРџСЂРµРґ" })
+        public static class РџРѕРґРїРёСЃР°РЅС‚ {
 
-            @XmlElement(name = "ФИО")
-            protected ФИОТип фио;
-            @XmlElement(name = "СвПред")
-            protected Файл2012.Документ.Подписант.СвПред свПред;
+            @XmlElement(name = "Р¤РРћ")
+            protected Р¤РРћРўРёРї С„РёРѕ;
+            @XmlElement(name = "РЎРІРџСЂРµРґ")
+            protected Р¤Р°Р№Р»2012.Р”РѕРєСѓРјРµРЅС‚.РџРѕРґРїРёСЃР°РЅС‚.РЎРІРџСЂРµРґ СЃРІРџСЂРµРґ;
 
-            @XmlAttribute(name = "ПрПодп", required = true)
-            protected String прПодп;
+            @XmlAttribute(name = "РџСЂРџРѕРґРї", required = true)
+            protected String РїСЂРџРѕРґРї;
 
-            public ФИОТип getФИО() {
-                return фио;
+            public Р¤РРћРўРёРї getР¤РРћ() {
+                return С„РёРѕ;
             }
-            public void setФИО(ФИОТип value) {
-                this.фио = value;
+            public void setР¤РРћ(Р¤РРћРўРёРї value) {
+                this.С„РёРѕ = value;
             }
-            public Файл2012.Документ.Подписант.СвПред getСвПред() {
-                return свПред;
+            public Р¤Р°Р№Р»2012.Р”РѕРєСѓРјРµРЅС‚.РџРѕРґРїРёСЃР°РЅС‚.РЎРІРџСЂРµРґ getРЎРІРџСЂРµРґ() {
+                return СЃРІРџСЂРµРґ;
             }
-            public void setСвПред(Файл2012.Документ.Подписант.СвПред value) {
-                this.свПред = value;
+            public void setРЎРІРџСЂРµРґ(Р¤Р°Р№Р»2012.Р”РѕРєСѓРјРµРЅС‚.РџРѕРґРїРёСЃР°РЅС‚.РЎРІРџСЂРµРґ value) {
+                this.СЃРІРџСЂРµРґ = value;
             }
-            public String getПрПодп() {
-                return прПодп;
+            public String getРџСЂРџРѕРґРї() {
+                return РїСЂРџРѕРґРї;
             }
-            public void setПрПодп(String value) {
-                this.прПодп = value;
+            public void setРџСЂРџРѕРґРї(String value) {
+                this.РїСЂРџРѕРґРї = value;
             }
 
 
             @XmlAccessorType(XmlAccessType.FIELD)
             @XmlType(name = "")
-            public static class СвПред {
+            public static class РЎРІРџСЂРµРґ {
 
-                @XmlAttribute(name = "НаимДок", required = true)
-                protected String наимДок;
-                @XmlAttribute(name = "НаимОрг")
-                protected String наимОрг;
+                @XmlAttribute(name = "РќР°РёРјР”РѕРє", required = true)
+                protected String РЅР°РёРјР”РѕРє;
+                @XmlAttribute(name = "РќР°РёРјРћСЂРі")
+                protected String РЅР°РёРјРћСЂРі;
 
-                public String getНаимДок() {
-                    return наимДок;
+                public String getРќР°РёРјР”РѕРє() {
+                    return РЅР°РёРјР”РѕРє;
                 }
-                public void setНаимДок(String value) {
-                    this.наимДок = value;
+                public void setРќР°РёРјР”РѕРє(String value) {
+                    this.РЅР°РёРјР”РѕРє = value;
                 }
-                public String getНаимОрг() {
-                    return наимОрг;
+                public String getРќР°РёРјРћСЂРі() {
+                    return РЅР°РёРјРћСЂРі;
                 }
-                public void setНаимОрг(String value) {
-                    this.наимОрг = value;
+                public void setРќР°РёРјРћСЂРі(String value) {
+                    this.РЅР°РёРјРћСЂРі = value;
                 }
             }
         }
 
         @XmlAccessorType(XmlAccessType.FIELD)
-        @XmlType(name = "", propOrder = { "нпюл", "нпфл" })
-        public static class СвНП {
+        @XmlType(name = "", propOrder = { "РЅРїСЋР»", "РЅРїС„Р»" })
+        public static class РЎРІРќРџ {
 
-            @XmlElement(name = "НПЮЛ")
-            protected Файл2012.Документ.СвНП.НПЮЛ нпюл;
-            @XmlElement(name = "НПФЛ")
-            protected Файл2012.Документ.СвНП.НПФЛ нпфл;
+            @XmlElement(name = "РќРџР®Р›")
+            protected Р¤Р°Р№Р»2012.Р”РѕРєСѓРјРµРЅС‚.РЎРІРќРџ.РќРџР®Р› РЅРїСЋР»;
+            @XmlElement(name = "РќРџР¤Р›")
+            protected Р¤Р°Р№Р»2012.Р”РѕРєСѓРјРµРЅС‚.РЎРІРќРџ.РќРџР¤Р› РЅРїС„Р»;
 
-            @XmlAttribute(name = "ОКАТО", required = true)
-            protected String окато;
-            @XmlAttribute(name = "ОКВЭД")
-            protected String оквэд;
-            @XmlAttribute(name = "Тлф")
-            protected String тлф;
+            @XmlAttribute(name = "РћРљРђРўРћ", required = true)
+            protected String РѕРєР°С‚Рѕ;
+            @XmlAttribute(name = "РћРљР’Р­Р”")
+            protected String РѕРєРІСЌРґ;
+            @XmlAttribute(name = "РўР»С„")
+            protected String С‚Р»С„;
             @XmlAttribute(name = "E-mail")
             protected String eMail;
 
-            public Файл2012.Документ.СвНП.НПЮЛ getНПЮЛ() {
-                return нпюл;
+            public Р¤Р°Р№Р»2012.Р”РѕРєСѓРјРµРЅС‚.РЎРІРќРџ.РќРџР®Р› getРќРџР®Р›() {
+                return РЅРїСЋР»;
             }
-            public void setНПЮЛ(Файл2012.Документ.СвНП.НПЮЛ value) {
-                this.нпюл = value;
+            public void setРќРџР®Р›(Р¤Р°Р№Р»2012.Р”РѕРєСѓРјРµРЅС‚.РЎРІРќРџ.РќРџР®Р› value) {
+                this.РЅРїСЋР» = value;
             }
-            public Файл2012.Документ.СвНП.НПФЛ getНПФЛ() {
-                return нпфл;
+            public Р¤Р°Р№Р»2012.Р”РѕРєСѓРјРµРЅС‚.РЎРІРќРџ.РќРџР¤Р› getРќРџР¤Р›() {
+                return РЅРїС„Р»;
             }
-            public void setНПФЛ(Файл2012.Документ.СвНП.НПФЛ value) {
-                this.нпфл = value;
+            public void setРќРџР¤Р›(Р¤Р°Р№Р»2012.Р”РѕРєСѓРјРµРЅС‚.РЎРІРќРџ.РќРџР¤Р› value) {
+                this.РЅРїС„Р» = value;
             }
-            public String getОКАТО() {
-                return окато;
+            public String getРћРљРђРўРћ() {
+                return РѕРєР°С‚Рѕ;
             }
-            public void setОКАТО(String value) {
-                this.окато = value;
+            public void setРћРљРђРўРћ(String value) {
+                this.РѕРєР°С‚Рѕ = value;
             }
-            public String getОКВЭД() {
-                return оквэд;
+            public String getРћРљР’Р­Р”() {
+                return РѕРєРІСЌРґ;
             }
-            public void setОКВЭД(String value) {
-                this.оквэд = value;
+            public void setРћРљР’Р­Р”(String value) {
+                this.РѕРєРІСЌРґ = value;
             }
-            public String getТлф() {
-                return тлф;
+            public String getРўР»С„() {
+                return С‚Р»С„;
             }
-            public void setТлф(String value) {
-                this.тлф = value;
+            public void setРўР»С„(String value) {
+                this.С‚Р»С„ = value;
             }
             public String getEMail() {
                 return eMail;
@@ -240,178 +240,178 @@ public class Файл2012 {
 
 
             @XmlAccessorType(XmlAccessType.FIELD)
-            @XmlType(name = "", propOrder = { "фио", "иннфл", "свФЛ" })
-            public static class НПФЛ {
+            @XmlType(name = "", propOrder = { "С„РёРѕ", "РёРЅРЅС„Р»", "СЃРІР¤Р›" })
+            public static class РќРџР¤Р› {
 
-                @XmlElement(name = "ФИО", required = true)
-                protected ФИОТип фио;
-                @XmlElement(name = "ИННФЛ")
-                protected String иннфл;
-                @XmlElement(name = "СвФЛ")
-                protected Файл2012.Документ.СвНП.НПФЛ.СвФЛ свФЛ;
+                @XmlElement(name = "Р¤РРћ", required = true)
+                protected Р¤РРћРўРёРї С„РёРѕ;
+                @XmlElement(name = "РРќРќР¤Р›")
+                protected String РёРЅРЅС„Р»;
+                @XmlElement(name = "РЎРІР¤Р›")
+                protected Р¤Р°Р№Р»2012.Р”РѕРєСѓРјРµРЅС‚.РЎРІРќРџ.РќРџР¤Р›.РЎРІР¤Р› СЃРІР¤Р›;
 
-                public ФИОТип getФИО() {
-                    return фио;
+                public Р¤РРћРўРёРї getР¤РРћ() {
+                    return С„РёРѕ;
                 }
-                public void setФИО(ФИОТип value) {
-                    this.фио = value;
+                public void setР¤РРћ(Р¤РРћРўРёРї value) {
+                    this.С„РёРѕ = value;
                 }
-                public String getИННФЛ() {
-                    return иннфл;
+                public String getРРќРќР¤Р›() {
+                    return РёРЅРЅС„Р»;
                 }
-                public void setИННФЛ(String value) {
-                    this.иннфл = value;
+                public void setРРќРќР¤Р›(String value) {
+                    this.РёРЅРЅС„Р» = value;
                 }
-                public Файл2012.Документ.СвНП.НПФЛ.СвФЛ getСвФЛ() {
-                    return свФЛ;
+                public Р¤Р°Р№Р»2012.Р”РѕРєСѓРјРµРЅС‚.РЎРІРќРџ.РќРџР¤Р›.РЎРІР¤Р› getРЎРІР¤Р›() {
+                    return СЃРІР¤Р›;
                 }
-                public void setСвФЛ(Файл2012.Документ.СвНП.НПФЛ.СвФЛ value) {
-                    this.свФЛ = value;
+                public void setРЎРІР¤Р›(Р¤Р°Р№Р»2012.Р”РѕРєСѓРјРµРЅС‚.РЎРІРќРџ.РќРџР¤Р›.РЎРІР¤Р› value) {
+                    this.СЃРІР¤Р› = value;
                 }
 
 
                 @XmlAccessorType(XmlAccessType.FIELD)
-                @XmlType(name = "", propOrder = { "удЛичнФЛ", "свАдрРФ", "адрИн" })
-                public static class СвФЛ {
+                @XmlType(name = "", propOrder = { "СѓРґР›РёС‡РЅР¤Р›", "СЃРІРђРґСЂР Р¤", "Р°РґСЂРРЅ" })
+                public static class РЎРІР¤Р› {
 
-                    @XmlElement(name = "УдЛичнФЛ", required = true)
-                    protected УдЛичнФЛТип удЛичнФЛ;
-                    @XmlElement(name = "СвАдрРФ", required = true)
-                    protected СвАдрРФТип свАдрРФ;
-                    @XmlElement(name = "АдрИн")
-                    protected АдрИнТип адрИн;
+                    @XmlElement(name = "РЈРґР›РёС‡РЅР¤Р›", required = true)
+                    protected РЈРґР›РёС‡РЅР¤Р›РўРёРї СѓРґР›РёС‡РЅР¤Р›;
+                    @XmlElement(name = "РЎРІРђРґСЂР Р¤", required = true)
+                    protected РЎРІРђРґСЂР Р¤РўРёРї СЃРІРђРґСЂР Р¤;
+                    @XmlElement(name = "РђРґСЂРРЅ")
+                    protected РђРґСЂРРЅРўРёРї Р°РґСЂРРЅ;
 
-                    @XmlAttribute(name = "ДатаРожд", required = true)
-                    protected String датаРожд;
-                    @XmlAttribute(name = "МестоРожд", required = true)
-                    protected String местоРожд;
-                    @XmlAttribute(name = "НалГражд", required = true)
-                    protected String налГражд;
-                    @XmlAttribute(name = "ОКСМ", required = true)
-                    protected String оксм;
-                    @XmlAttribute(name = "СтатусНП", required = true)
-                    protected String статусНП;
+                    @XmlAttribute(name = "Р”Р°С‚Р°Р РѕР¶Рґ", required = true)
+                    protected String РґР°С‚Р°Р РѕР¶Рґ;
+                    @XmlAttribute(name = "РњРµСЃС‚РѕР РѕР¶Рґ", required = true)
+                    protected String РјРµСЃС‚РѕР РѕР¶Рґ;
+                    @XmlAttribute(name = "РќР°Р»Р“СЂР°Р¶Рґ", required = true)
+                    protected String РЅР°Р»Р“СЂР°Р¶Рґ;
+                    @XmlAttribute(name = "РћРљРЎРњ", required = true)
+                    protected String РѕРєСЃРј;
+                    @XmlAttribute(name = "РЎС‚Р°С‚СѓСЃРќРџ", required = true)
+                    protected String СЃС‚Р°С‚СѓСЃРќРџ;
 
-                    public УдЛичнФЛТип getУдЛичнФЛ() {
-                        return удЛичнФЛ;
+                    public РЈРґР›РёС‡РЅР¤Р›РўРёРї getРЈРґР›РёС‡РЅР¤Р›() {
+                        return СѓРґР›РёС‡РЅР¤Р›;
                     }
-                    public void setУдЛичнФЛ(УдЛичнФЛТип value) {
-                        this.удЛичнФЛ = value;
+                    public void setРЈРґР›РёС‡РЅР¤Р›(РЈРґР›РёС‡РЅР¤Р›РўРёРї value) {
+                        this.СѓРґР›РёС‡РЅР¤Р› = value;
                     }
-                    public СвАдрРФТип getСвАдрРФ() {
-                        return свАдрРФ;
+                    public РЎРІРђРґСЂР Р¤РўРёРї getРЎРІРђРґСЂР Р¤() {
+                        return СЃРІРђРґСЂР Р¤;
                     }
-                    public void setСвАдрРФ(СвАдрРФТип value) {
-                        this.свАдрРФ = value;
+                    public void setРЎРІРђРґСЂР Р¤(РЎРІРђРґСЂР Р¤РўРёРї value) {
+                        this.СЃРІРђРґСЂР Р¤ = value;
                     }
-                    public АдрИнТип getАдрИн() {
-                        return адрИн;
+                    public РђРґСЂРРЅРўРёРї getРђРґСЂРРЅ() {
+                        return Р°РґСЂРРЅ;
                     }
-                    public void setАдрИн(АдрИнТип value) {
-                        this.адрИн = value;
+                    public void setРђРґСЂРРЅ(РђРґСЂРРЅРўРёРї value) {
+                        this.Р°РґСЂРРЅ = value;
                     }
-                    public String getДатаРожд() {
-                        return датаРожд;
+                    public String getР”Р°С‚Р°Р РѕР¶Рґ() {
+                        return РґР°С‚Р°Р РѕР¶Рґ;
                     }
-                    public void setДатаРожд(String value) {
-                        this.датаРожд = value;
+                    public void setР”Р°С‚Р°Р РѕР¶Рґ(String value) {
+                        this.РґР°С‚Р°Р РѕР¶Рґ = value;
                     }
-                    public String getМестоРожд() {
-                        return местоРожд;
+                    public String getРњРµСЃС‚РѕР РѕР¶Рґ() {
+                        return РјРµСЃС‚РѕР РѕР¶Рґ;
                     }
-                    public void setМестоРожд(String value) {
-                        this.местоРожд = value;
+                    public void setРњРµСЃС‚РѕР РѕР¶Рґ(String value) {
+                        this.РјРµСЃС‚РѕР РѕР¶Рґ = value;
                     }
-                    public String getНалГражд() {
-                        return налГражд;
+                    public String getРќР°Р»Р“СЂР°Р¶Рґ() {
+                        return РЅР°Р»Р“СЂР°Р¶Рґ;
                     }
-                    public void setНалГражд(String value) {
-                        this.налГражд = value;
+                    public void setРќР°Р»Р“СЂР°Р¶Рґ(String value) {
+                        this.РЅР°Р»Р“СЂР°Р¶Рґ = value;
                     }
-                    public String getОКСМ() {
-                        return оксм;
+                    public String getРћРљРЎРњ() {
+                        return РѕРєСЃРј;
                     }
-                    public void setОКСМ(String value) {
-                        this.оксм = value;
+                    public void setРћРљРЎРњ(String value) {
+                        this.РѕРєСЃРј = value;
                     }
-                    public String getСтатусНП() {
-                        return статусНП;
+                    public String getРЎС‚Р°С‚СѓСЃРќРџ() {
+                        return СЃС‚Р°С‚СѓСЃРќРџ;
                     }
-                    public void setСтатусНП(String value) {
-                        this.статусНП = value;
+                    public void setРЎС‚Р°С‚СѓСЃРќРџ(String value) {
+                        this.СЃС‚Р°С‚СѓСЃРќРџ = value;
                     }
                 }
             }
 
 
             @XmlAccessorType(XmlAccessType.FIELD)
-            @XmlType(name = "", propOrder = { "свРеоргЮЛ" })
-            public static class НПЮЛ {
+            @XmlType(name = "", propOrder = { "СЃРІР РµРѕСЂРіР®Р›" })
+            public static class РќРџР®Р› {
 
-                @XmlElement(name = "СвРеоргЮЛ")
-                protected Файл2012.Документ.СвНП.НПЮЛ.СвРеоргЮЛ свРеоргЮЛ;
+                @XmlElement(name = "РЎРІР РµРѕСЂРіР®Р›")
+                protected Р¤Р°Р№Р»2012.Р”РѕРєСѓРјРµРЅС‚.РЎРІРќРџ.РќРџР®Р›.РЎРІР РµРѕСЂРіР®Р› СЃРІР РµРѕСЂРіР®Р›;
 
-                @XmlAttribute(name = "НаимОрг", required = true)
-                protected String наимОрг;
-                @XmlAttribute(name = "ИННЮЛ", required = true)
-                protected String иннюл;
-                @XmlAttribute(name = "КПП", required = true)
-                protected String кпп;
+                @XmlAttribute(name = "РќР°РёРјРћСЂРі", required = true)
+                protected String РЅР°РёРјРћСЂРі;
+                @XmlAttribute(name = "РРќРќР®Р›", required = true)
+                protected String РёРЅРЅСЋР»;
+                @XmlAttribute(name = "РљРџРџ", required = true)
+                protected String РєРїРї;
 
-                public Файл2012.Документ.СвНП.НПЮЛ.СвРеоргЮЛ getСвРеоргЮЛ() {
-                    return свРеоргЮЛ;
+                public Р¤Р°Р№Р»2012.Р”РѕРєСѓРјРµРЅС‚.РЎРІРќРџ.РќРџР®Р›.РЎРІР РµРѕСЂРіР®Р› getРЎРІР РµРѕСЂРіР®Р›() {
+                    return СЃРІР РµРѕСЂРіР®Р›;
                 }
-                public void setСвРеоргЮЛ(Файл2012.Документ.СвНП.НПЮЛ.СвРеоргЮЛ value) {
-                    this.свРеоргЮЛ = value;
+                public void setРЎРІР РµРѕСЂРіР®Р›(Р¤Р°Р№Р»2012.Р”РѕРєСѓРјРµРЅС‚.РЎРІРќРџ.РќРџР®Р›.РЎРІР РµРѕСЂРіР®Р› value) {
+                    this.СЃРІР РµРѕСЂРіР®Р› = value;
                 }
-                public String getНаимОрг() {
-                    return наимОрг;
+                public String getРќР°РёРјРћСЂРі() {
+                    return РЅР°РёРјРћСЂРі;
                 }
-                public void setНаимОрг(String value) {
-                    this.наимОрг = value;
+                public void setРќР°РёРјРћСЂРі(String value) {
+                    this.РЅР°РёРјРћСЂРі = value;
                 }
-                public String getИННЮЛ() {
-                    return иннюл;
+                public String getРРќРќР®Р›() {
+                    return РёРЅРЅСЋР»;
                 }
-                public void setИННЮЛ(String value) {
-                    this.иннюл = value;
+                public void setРРќРќР®Р›(String value) {
+                    this.РёРЅРЅСЋР» = value;
                 }
-                public String getКПП() {
-                    return кпп;
+                public String getРљРџРџ() {
+                    return РєРїРї;
                 }
-                public void setКПП(String value) {
-                    this.кпп = value;
+                public void setРљРџРџ(String value) {
+                    this.РєРїРї = value;
                 }
 
 
                 @XmlAccessorType(XmlAccessType.FIELD)
                 @XmlType(name = "")
-                public static class СвРеоргЮЛ {
+                public static class РЎРІР РµРѕСЂРіР®Р› {
 
-                    @XmlAttribute(name = "ФормРеорг", required = true)
-                    protected String формРеорг;
-                    @XmlAttribute(name = "ИННЮЛ")
-                    protected String иннюл;
-                    @XmlAttribute(name = "КПП")
-                    protected String кпп;
+                    @XmlAttribute(name = "Р¤РѕСЂРјР РµРѕСЂРі", required = true)
+                    protected String С„РѕСЂРјР РµРѕСЂРі;
+                    @XmlAttribute(name = "РРќРќР®Р›")
+                    protected String РёРЅРЅСЋР»;
+                    @XmlAttribute(name = "РљРџРџ")
+                    protected String РєРїРї;
 
-                    public String getФормРеорг() {
-                        return формРеорг;
+                    public String getР¤РѕСЂРјР РµРѕСЂРі() {
+                        return С„РѕСЂРјР РµРѕСЂРі;
                     }
-                    public void setФормРеорг(String value) {
-                        this.формРеорг = value;
+                    public void setР¤РѕСЂРјР РµРѕСЂРі(String value) {
+                        this.С„РѕСЂРјР РµРѕСЂРі = value;
                     }
-                    public String getИННЮЛ() {
-                        return иннюл;
+                    public String getРРќРќР®Р›() {
+                        return РёРЅРЅСЋР»;
                     }
-                    public void setИННЮЛ(String value) {
-                        this.иннюл = value;
+                    public void setРРќРќР®Р›(String value) {
+                        this.РёРЅРЅСЋР» = value;
                     }
-                    public String getКПП() {
-                        return кпп;
+                    public String getРљРџРџ() {
+                        return РєРїРї;
                     }
-                    public void setКПП(String value) {
-                        this.кпп = value;
+                    public void setРљРџРџ(String value) {
+                        this.РєРїРї = value;
                     }
                 }
             }
@@ -419,793 +419,793 @@ public class Файл2012 {
 
 
         @XmlAccessorType(XmlAccessType.FIELD)
-        @XmlType(name = "", propOrder = { "свКонтрСд" })
-        public static class УвКонтрСд {
+        @XmlType(name = "", propOrder = { "СЃРІРљРѕРЅС‚СЂРЎРґ" })
+        public static class РЈРІРљРѕРЅС‚СЂРЎРґ {
 
-            @XmlElement(name = "СвКонтрСд", required = true)
-            protected List<Файл2012.Документ.УвКонтрСд.СвКонтрСд> свКонтрСд;
+            @XmlElement(name = "РЎРІРљРѕРЅС‚СЂРЎРґ", required = true)
+            protected List<Р¤Р°Р№Р»2012.Р”РѕРєСѓРјРµРЅС‚.РЈРІРљРѕРЅС‚СЂРЎРґ.РЎРІРљРѕРЅС‚СЂРЎРґ> СЃРІРљРѕРЅС‚СЂРЎРґ;
 
-            public List<Файл2012.Документ.УвКонтрСд.СвКонтрСд> getСвКонтрСд() {
-                if (свКонтрСд == null) {
-                    свКонтрСд = new ArrayList<Файл2012.Документ.УвКонтрСд.СвКонтрСд>();
+            public List<Р¤Р°Р№Р»2012.Р”РѕРєСѓРјРµРЅС‚.РЈРІРљРѕРЅС‚СЂРЎРґ.РЎРІРљРѕРЅС‚СЂРЎРґ> getРЎРІРљРѕРЅС‚СЂРЎРґ() {
+                if (СЃРІРљРѕРЅС‚СЂРЎРґ == null) {
+                    СЃРІРљРѕРЅС‚СЂРЎРґ = new ArrayList<Р¤Р°Р№Р»2012.Р”РѕРєСѓРјРµРЅС‚.РЈРІРљРѕРЅС‚СЂРЎРґ.РЎРІРљРѕРЅС‚СЂРЎРґ>();
                 }
-                return this.свКонтрСд;
+                return this.СЃРІРљРѕРЅС‚СЂРЎРґ;
             }
-            public void setСвКонтрСд(List<Файл2012.Документ.УвКонтрСд.СвКонтрСд> value) {
-                this.свКонтрСд = value;
+            public void setРЎРІРљРѕРЅС‚СЂРЎРґ(List<Р¤Р°Р№Р»2012.Р”РѕРєСѓРјРµРЅС‚.РЈРІРљРѕРЅС‚СЂРЎРґ.РЎРІРљРѕРЅС‚СЂРЎРґ> value) {
+                this.СЃРІРљРѕРЅС‚СЂРЎРґ = value;
             }
 
             @XmlAccessorType(XmlAccessType.FIELD)
-            @XmlType(name = "", propOrder = { "оснКонтрСд", "контрСд", "дохРасхСд", "свПредмСд", "свОргУчаст", "свФЛУчаст" })
-            public static class СвКонтрСд {
+            @XmlType(name = "", propOrder = { "РѕСЃРЅРљРѕРЅС‚СЂРЎРґ", "РєРѕРЅС‚СЂРЎРґ", "РґРѕС…Р Р°СЃС…РЎРґ", "СЃРІРџСЂРµРґРјРЎРґ", "СЃРІРћСЂРіРЈС‡Р°СЃС‚", "СЃРІР¤Р›РЈС‡Р°СЃС‚" })
+            public static class РЎРІРљРѕРЅС‚СЂРЎРґ {
 
-                @XmlElement(name = "ОснКонтрСд", required = true)
-                protected Файл2012.Документ.УвКонтрСд.СвКонтрСд.ОснКонтрСд оснКонтрСд;
-                @XmlElement(name = "КонтрСд", required = true)
-                protected Файл2012.Документ.УвКонтрСд.СвКонтрСд.КонтрСд контрСд;
-                @XmlElement(name = "ДохРасхСд", required = true)
-                protected Файл2012.Документ.УвКонтрСд.СвКонтрСд.ДохРасхСд дохРасхСд;
-                @XmlElement(name = "СвПредмСд", required = true)
-                protected List<Файл2012.Документ.УвКонтрСд.СвКонтрСд.СвПредмСд> свПредмСд;
-                @XmlElement(name = "СвОргУчаст")
-                protected List<Файл2012.Документ.УвКонтрСд.СвКонтрСд.СвОргУчаст> свОргУчаст;
-                @XmlElement(name = "СвФЛУчаст")
-                protected List<Файл2012.Документ.УвКонтрСд.СвКонтрСд.СвФЛУчаст> свФЛУчаст;
+                @XmlElement(name = "РћСЃРЅРљРѕРЅС‚СЂРЎРґ", required = true)
+                protected Р¤Р°Р№Р»2012.Р”РѕРєСѓРјРµРЅС‚.РЈРІРљРѕРЅС‚СЂРЎРґ.РЎРІРљРѕРЅС‚СЂРЎРґ.РћСЃРЅРљРѕРЅС‚СЂРЎРґ РѕСЃРЅРљРѕРЅС‚СЂРЎРґ;
+                @XmlElement(name = "РљРѕРЅС‚СЂРЎРґ", required = true)
+                protected Р¤Р°Р№Р»2012.Р”РѕРєСѓРјРµРЅС‚.РЈРІРљРѕРЅС‚СЂРЎРґ.РЎРІРљРѕРЅС‚СЂРЎРґ.РљРѕРЅС‚СЂРЎРґ РєРѕРЅС‚СЂРЎРґ;
+                @XmlElement(name = "Р”РѕС…Р Р°СЃС…РЎРґ", required = true)
+                protected Р¤Р°Р№Р»2012.Р”РѕРєСѓРјРµРЅС‚.РЈРІРљРѕРЅС‚СЂРЎРґ.РЎРІРљРѕРЅС‚СЂРЎРґ.Р”РѕС…Р Р°СЃС…РЎРґ РґРѕС…Р Р°СЃС…РЎРґ;
+                @XmlElement(name = "РЎРІРџСЂРµРґРјРЎРґ", required = true)
+                protected List<Р¤Р°Р№Р»2012.Р”РѕРєСѓРјРµРЅС‚.РЈРІРљРѕРЅС‚СЂРЎРґ.РЎРІРљРѕРЅС‚СЂРЎРґ.РЎРІРџСЂРµРґРјРЎРґ> СЃРІРџСЂРµРґРјРЎРґ;
+                @XmlElement(name = "РЎРІРћСЂРіРЈС‡Р°СЃС‚")
+                protected List<Р¤Р°Р№Р»2012.Р”РѕРєСѓРјРµРЅС‚.РЈРІРљРѕРЅС‚СЂРЎРґ.РЎРІРљРѕРЅС‚СЂРЎРґ.РЎРІРћСЂРіРЈС‡Р°СЃС‚> СЃРІРћСЂРіРЈС‡Р°СЃС‚;
+                @XmlElement(name = "РЎРІР¤Р›РЈС‡Р°СЃС‚")
+                protected List<Р¤Р°Р№Р»2012.Р”РѕРєСѓРјРµРЅС‚.РЈРІРљРѕРЅС‚СЂРЎРґ.РЎРІРљРѕРЅС‚СЂРЎРґ.РЎРІР¤Р›РЈС‡Р°СЃС‚> СЃРІР¤Р›РЈС‡Р°СЃС‚;
 
-                @XmlAttribute(name = "НомПорСд", required = true)
-                protected BigInteger номПорСд;
+                @XmlAttribute(name = "РќРѕРјРџРѕСЂРЎРґ", required = true)
+                protected BigInteger РЅРѕРјРџРѕСЂРЎРґ;
 
-                public Файл2012.Документ.УвКонтрСд.СвКонтрСд.ОснКонтрСд getОснКонтрСд() {
-                    return оснКонтрСд;
+                public Р¤Р°Р№Р»2012.Р”РѕРєСѓРјРµРЅС‚.РЈРІРљРѕРЅС‚СЂРЎРґ.РЎРІРљРѕРЅС‚СЂРЎРґ.РћСЃРЅРљРѕРЅС‚СЂРЎРґ getРћСЃРЅРљРѕРЅС‚СЂРЎРґ() {
+                    return РѕСЃРЅРљРѕРЅС‚СЂРЎРґ;
                 }
-                public void setОснКонтрСд(Файл2012.Документ.УвКонтрСд.СвКонтрСд.ОснКонтрСд value) {
-                    this.оснКонтрСд = value;
+                public void setРћСЃРЅРљРѕРЅС‚СЂРЎРґ(Р¤Р°Р№Р»2012.Р”РѕРєСѓРјРµРЅС‚.РЈРІРљРѕРЅС‚СЂРЎРґ.РЎРІРљРѕРЅС‚СЂРЎРґ.РћСЃРЅРљРѕРЅС‚СЂРЎРґ value) {
+                    this.РѕСЃРЅРљРѕРЅС‚СЂРЎРґ = value;
                 }
-                public Файл2012.Документ.УвКонтрСд.СвКонтрСд.КонтрСд getКонтрСд() {
-                    return контрСд;
+                public Р¤Р°Р№Р»2012.Р”РѕРєСѓРјРµРЅС‚.РЈРІРљРѕРЅС‚СЂРЎРґ.РЎРІРљРѕРЅС‚СЂРЎРґ.РљРѕРЅС‚СЂРЎРґ getРљРѕРЅС‚СЂРЎРґ() {
+                    return РєРѕРЅС‚СЂРЎРґ;
                 }
-                public void setКонтрСд(Файл2012.Документ.УвКонтрСд.СвКонтрСд.КонтрСд value) {
-                    this.контрСд = value;
+                public void setРљРѕРЅС‚СЂРЎРґ(Р¤Р°Р№Р»2012.Р”РѕРєСѓРјРµРЅС‚.РЈРІРљРѕРЅС‚СЂРЎРґ.РЎРІРљРѕРЅС‚СЂРЎРґ.РљРѕРЅС‚СЂРЎРґ value) {
+                    this.РєРѕРЅС‚СЂРЎРґ = value;
                 }
-                public Файл2012.Документ.УвКонтрСд.СвКонтрСд.ДохРасхСд getДохРасхСд() {
-                    return дохРасхСд;
+                public Р¤Р°Р№Р»2012.Р”РѕРєСѓРјРµРЅС‚.РЈРІРљРѕРЅС‚СЂРЎРґ.РЎРІРљРѕРЅС‚СЂРЎРґ.Р”РѕС…Р Р°СЃС…РЎРґ getР”РѕС…Р Р°СЃС…РЎРґ() {
+                    return РґРѕС…Р Р°СЃС…РЎРґ;
                 }
-                public void setДохРасхСд(Файл2012.Документ.УвКонтрСд.СвКонтрСд.ДохРасхСд value) {
-                    this.дохРасхСд = value;
+                public void setР”РѕС…Р Р°СЃС…РЎРґ(Р¤Р°Р№Р»2012.Р”РѕРєСѓРјРµРЅС‚.РЈРІРљРѕРЅС‚СЂРЎРґ.РЎРІРљРѕРЅС‚СЂРЎРґ.Р”РѕС…Р Р°СЃС…РЎРґ value) {
+                    this.РґРѕС…Р Р°СЃС…РЎРґ = value;
                 }
-                public List<Файл2012.Документ.УвКонтрСд.СвКонтрСд.СвПредмСд> getСвПредмСд() {
-                    if (свПредмСд == null) {
-                        свПредмСд = new ArrayList<Файл2012.Документ.УвКонтрСд.СвКонтрСд.СвПредмСд>();
+                public List<Р¤Р°Р№Р»2012.Р”РѕРєСѓРјРµРЅС‚.РЈРІРљРѕРЅС‚СЂРЎРґ.РЎРІРљРѕРЅС‚СЂРЎРґ.РЎРІРџСЂРµРґРјРЎРґ> getРЎРІРџСЂРµРґРјРЎРґ() {
+                    if (СЃРІРџСЂРµРґРјРЎРґ == null) {
+                        СЃРІРџСЂРµРґРјРЎРґ = new ArrayList<Р¤Р°Р№Р»2012.Р”РѕРєСѓРјРµРЅС‚.РЈРІРљРѕРЅС‚СЂРЎРґ.РЎРІРљРѕРЅС‚СЂРЎРґ.РЎРІРџСЂРµРґРјРЎРґ>();
                     }
-                    return this.свПредмСд;
+                    return this.СЃРІРџСЂРµРґРјРЎРґ;
                 }
-                public void setСвПредмСд(List<Файл2012.Документ.УвКонтрСд.СвКонтрСд.СвПредмСд> value){
-                    this.свПредмСд = value;
+                public void setРЎРІРџСЂРµРґРјРЎРґ(List<Р¤Р°Р№Р»2012.Р”РѕРєСѓРјРµРЅС‚.РЈРІРљРѕРЅС‚СЂРЎРґ.РЎРІРљРѕРЅС‚СЂРЎРґ.РЎРІРџСЂРµРґРјРЎРґ> value){
+                    this.СЃРІРџСЂРµРґРјРЎРґ = value;
                 }
-                public List<Файл2012.Документ.УвКонтрСд.СвКонтрСд.СвОргУчаст> getСвОргУчаст() {
-                    if (свОргУчаст == null) {
-                        свОргУчаст = new ArrayList<Файл2012.Документ.УвКонтрСд.СвКонтрСд.СвОргУчаст>();
+                public List<Р¤Р°Р№Р»2012.Р”РѕРєСѓРјРµРЅС‚.РЈРІРљРѕРЅС‚СЂРЎРґ.РЎРІРљРѕРЅС‚СЂРЎРґ.РЎРІРћСЂРіРЈС‡Р°СЃС‚> getРЎРІРћСЂРіРЈС‡Р°СЃС‚() {
+                    if (СЃРІРћСЂРіРЈС‡Р°СЃС‚ == null) {
+                        СЃРІРћСЂРіРЈС‡Р°СЃС‚ = new ArrayList<Р¤Р°Р№Р»2012.Р”РѕРєСѓРјРµРЅС‚.РЈРІРљРѕРЅС‚СЂРЎРґ.РЎРІРљРѕРЅС‚СЂРЎРґ.РЎРІРћСЂРіРЈС‡Р°СЃС‚>();
                     }
-                    return this.свОргУчаст;
+                    return this.СЃРІРћСЂРіРЈС‡Р°СЃС‚;
                 }
-                public void setСвОргУчаст(List<Файл2012.Документ.УвКонтрСд.СвКонтрСд.СвОргУчаст> value){
-                    this.свОргУчаст = value;
+                public void setРЎРІРћСЂРіРЈС‡Р°СЃС‚(List<Р¤Р°Р№Р»2012.Р”РѕРєСѓРјРµРЅС‚.РЈРІРљРѕРЅС‚СЂРЎРґ.РЎРІРљРѕРЅС‚СЂРЎРґ.РЎРІРћСЂРіРЈС‡Р°СЃС‚> value){
+                    this.СЃРІРћСЂРіРЈС‡Р°СЃС‚ = value;
                 }
-                public List<Файл2012.Документ.УвКонтрСд.СвКонтрСд.СвФЛУчаст> getСвФЛУчаст() {
-                    if (свФЛУчаст == null) {
-                        свФЛУчаст = new ArrayList<Файл2012.Документ.УвКонтрСд.СвКонтрСд.СвФЛУчаст>();
+                public List<Р¤Р°Р№Р»2012.Р”РѕРєСѓРјРµРЅС‚.РЈРІРљРѕРЅС‚СЂРЎРґ.РЎРІРљРѕРЅС‚СЂРЎРґ.РЎРІР¤Р›РЈС‡Р°СЃС‚> getРЎРІР¤Р›РЈС‡Р°СЃС‚() {
+                    if (СЃРІР¤Р›РЈС‡Р°СЃС‚ == null) {
+                        СЃРІР¤Р›РЈС‡Р°СЃС‚ = new ArrayList<Р¤Р°Р№Р»2012.Р”РѕРєСѓРјРµРЅС‚.РЈРІРљРѕРЅС‚СЂРЎРґ.РЎРІРљРѕРЅС‚СЂРЎРґ.РЎРІР¤Р›РЈС‡Р°СЃС‚>();
                     }
-                    return this.свФЛУчаст;
+                    return this.СЃРІР¤Р›РЈС‡Р°СЃС‚;
                 }
-                public void setСвФЛУчаст(List<Файл2012.Документ.УвКонтрСд.СвКонтрСд.СвФЛУчаст> value){
-                    this.свФЛУчаст = value;
+                public void setРЎРІР¤Р›РЈС‡Р°СЃС‚(List<Р¤Р°Р№Р»2012.Р”РѕРєСѓРјРµРЅС‚.РЈРІРљРѕРЅС‚СЂРЎРґ.РЎРІРљРѕРЅС‚СЂРЎРґ.РЎРІР¤Р›РЈС‡Р°СЃС‚> value){
+                    this.СЃРІР¤Р›РЈС‡Р°СЃС‚ = value;
                 }
-                public BigInteger getНомПорСд() {
-                    return номПорСд;
+                public BigInteger getРќРѕРјРџРѕСЂРЎРґ() {
+                    return РЅРѕРјРџРѕСЂРЎРґ;
                 }
-                public void setНомПорСд(BigInteger value) {
-                    this.номПорСд = value;
-                }
-
-
-                @XmlAccessorType(XmlAccessType.FIELD)
-                @XmlType(name = "")
-                public static class ДохРасхСд {
-
-                    @XmlAttribute(name = "СумДохСд", required = true)
-                    protected BigInteger сумДохСд;
-                    @XmlAttribute(name = "СумДохСдРег")
-                    protected BigInteger сумДохСдРег;
-                    @XmlAttribute(name = "СумРасхСд", required = true)
-                    protected BigInteger сумРасхСд;
-                    @XmlAttribute(name = "СумРасхСдРег")
-                    protected BigInteger сумРасхСдРег;
-
-                    public BigInteger getСумДохСд() {
-                        return сумДохСд;
-                    }
-                    public void setСумДохСд(BigInteger value) {
-                        this.сумДохСд = value;
-                    }
-                    public BigInteger getСумДохСдРег() {
-                        return сумДохСдРег;
-                    }
-                    public void setСумДохСдРег(BigInteger value) {
-                        this.сумДохСдРег = value;
-                    }
-                    public BigInteger getСумРасхСд() {
-                        return сумРасхСд;
-                    }
-                    public void setСумРасхСд(BigInteger value) {
-                        this.сумРасхСд = value;
-                    }
-                    public BigInteger getСумРасхСдРег() {
-                        return сумРасхСдРег;
-                    }
-                    public void setСумРасхСдРег(BigInteger value) {
-                        this.сумРасхСдРег = value;
-                    }
-                }
-
-
-                @XmlAccessorType(XmlAccessType.FIELD)
-                @XmlType(name = "", propOrder = { "кодИстИнф" })
-                public static class КонтрСд {
-
-                    @XmlElement(name = "КодИстИнф")
-                    protected Файл2012.Документ.УвКонтрСд.СвКонтрСд.КонтрСд.КодИстИнф кодИстИнф;
-
-                    @XmlAttribute(name = "ГрупОС", required = true)
-                    protected String групОС;
-                    @XmlAttribute(name = "КодНаимСд", required = true)
-                    protected String кодНаимСд;
-                    @XmlAttribute(name = "КодСторСд", required = true)
-                    protected String кодСторСд;
-                    @XmlAttribute(name = "ПрОпрЦен", required = true)
-                    protected String прОпрЦен;
-                    @XmlAttribute(name = "КомПрОпрЦен")
-                    protected String комПрОпрЦен;
-                    @XmlAttribute(name = "КодОпрЦен", required = true)
-                    protected String кодОпрЦен;
-                    @XmlAttribute(name = "КомКодОпрЦен")
-                    protected String комКодОпрЦен;
-                    @XmlAttribute(name = "КодМетЦен")
-                    protected String кодМетЦен;
-                    @XmlAttribute(name = "КомКодМетЦен")
-                    protected String комКодМетЦен;
-                    @XmlAttribute(name = "КолУчСд", required = true)
-                    protected BigInteger колУчСд;
-                    @XmlAttribute(name = "КомКолУчСд")
-                    protected String комКолУчСд;
-
-                    public Файл2012.Документ.УвКонтрСд.СвКонтрСд.КонтрСд.КодИстИнф getКодИстИнф() {
-                        return кодИстИнф;
-                    }
-                    public void setКодИстИнф(Файл2012.Документ.УвКонтрСд.СвКонтрСд.КонтрСд.КодИстИнф value) {
-                        this.кодИстИнф = value;
-                    }
-                    public String getГрупОС() {
-                        return групОС;
-                    }
-                    public void setГрупОС(String value) {
-                        this.групОС = value;
-                    }
-                    public String getКодНаимСд() {
-                        return кодНаимСд;
-                    }
-                    public void setКодНаимСд(String value) {
-                        this.кодНаимСд = value;
-                    }
-                    public String getКодСторСд() {
-                        return кодСторСд;
-                    }
-                    public void setКодСторСд(String value) {
-                        this.кодСторСд = value;
-                    }
-                    public String getПрОпрЦен() {
-                        return прОпрЦен;
-                    }
-                    public void setПрОпрЦен(String value) {
-                        this.прОпрЦен = value;
-                    }
-                    public String getКомПрОпрЦен() {
-                        return комПрОпрЦен;
-                    }
-                    public void setКомПрОпрЦен(String value) {
-                        this.комПрОпрЦен = value;
-                    }
-                    public String getКодОпрЦен() {
-                        return кодОпрЦен;
-                    }
-                    public void setКодОпрЦен(String value) {
-                        this.кодОпрЦен = value;
-                    }
-                    public String getКомКодОпрЦен() {
-                        return комКодОпрЦен;
-                    }
-                    public void setКомКодОпрЦен(String value) {
-                        this.комКодОпрЦен = value;
-                    }
-                    public String getКодМетЦен() {
-                        return кодМетЦен;
-                    }
-                    public void setКодМетЦен(String value) {
-                        this.кодМетЦен = value;
-                    }
-                    public String getКомКодМетЦен() {
-                        return комКодМетЦен;
-                    }
-                    public void setКомКодМетЦен(String value) {
-                        this.комКодМетЦен = value;
-                    }
-                    public BigInteger getКолУчСд() {
-                        return колУчСд;
-                    }
-                    public void setКолУчСд(BigInteger value) {
-                        this.колУчСд = value;
-                    }
-                    public String getКомКолУчСд() {
-                        return комКолУчСд;
-                    }
-                    public void setКомКолУчСд(String value) {
-                        this.комКолУчСд = value;
-                    }
-
-
-                    @XmlAccessorType(XmlAccessType.FIELD)
-                    @XmlType(name = "")
-                    public static class КодИстИнф {
-
-                        @XmlAttribute(name = "Ист251", required = true)
-                        protected String ист251;
-                        @XmlAttribute(name = "Ист252", required = true)
-                        protected String ист252;
-                        @XmlAttribute(name = "Ист253", required = true)
-                        protected String ист253;
-                        @XmlAttribute(name = "Ист254", required = true)
-                        protected String ист254;
-                        @XmlAttribute(name = "Ист255", required = true)
-                        protected String ист255;
-                        @XmlAttribute(name = "Ист256", required = true)
-                        protected String ист256;
-                        @XmlAttribute(name = "Ист257", required = true)
-                        protected String ист257;
-                        @XmlAttribute(name = "Ист258", required = true)
-                        protected String ист258;
-                        @XmlAttribute(name = "Ист259", required = true)
-                        protected String ист259;
-
-                        public String getИст251() {
-                            return ист251;
-                        }
-                        public void setИст251(String value) {
-                            this.ист251 = value;
-                        }
-                        public String getИст252() {
-                            return ист252;
-                        }
-                        public void setИст252(String value) {
-                            this.ист252 = value;
-                        }
-                        public String getИст253() {
-                            return ист253;
-                        }
-                        public void setИст253(String value) {
-                            this.ист253 = value;
-                        }
-                        public String getИст254() {
-                            return ист254;
-                        }
-                        public void setИст254(String value) {
-                            this.ист254 = value;
-                        }
-                        public String getИст255() {
-                            return ист255;
-                        }
-                        public void setИст255(String value) {
-                            this.ист255 = value;
-                        }
-                        public String getИст256() {
-                            return ист256;
-                        }
-                        public void setИст256(String value) {
-                            this.ист256 = value;
-                        }
-                        public String getИст257() {
-                            return ист257;
-                        }
-                        public void setИст257(String value) {
-                            this.ист257 = value;
-                        }
-                        public String getИст258() {
-                            return ист258;
-                        }
-                        public void setИст258(String value) {
-                            this.ист258 = value;
-                        }
-                        public String getИст259() {
-                            return ист259;
-                        }
-                        public void setИст259(String value) {
-                            this.ист259 = value;
-                        }
-                    }
-                }
-
-
-                @XmlAccessorType(XmlAccessType.FIELD)
-                @XmlType(name = "", propOrder = { "осн10514", "оснРФ10514" })
-                public static class ОснКонтрСд {
-
-                    @XmlElement(name = "Осн105.14", required = true)
-                    protected Файл2012.Документ.УвКонтрСд.СвКонтрСд.ОснКонтрСд.Осн10514 осн10514;
-                    @XmlElement(name = "ОснРФ105.14", required = true)
-                    protected Файл2012.Документ.УвКонтрСд.СвКонтрСд.ОснКонтрСд.ОснРФ10514 оснРФ10514;
-
-                    @XmlAttribute(name = "ВзЗавис")
-                    protected String взЗавис;
-
-                    public Файл2012.Документ.УвКонтрСд.СвКонтрСд.ОснКонтрСд.Осн10514 getОсн10514() {
-                        return осн10514;
-                    }
-                    public void setОсн10514(Файл2012.Документ.УвКонтрСд.СвКонтрСд.ОснКонтрСд.Осн10514 value) {
-                        this.осн10514 = value;
-                    }
-                    public Файл2012.Документ.УвКонтрСд.СвКонтрСд.ОснКонтрСд.ОснРФ10514 getОснРФ10514() {
-                        return оснРФ10514;
-                    }
-                    public void setОснРФ10514(Файл2012.Документ.УвКонтрСд.СвКонтрСд.ОснКонтрСд.ОснРФ10514 value) {
-                        this.оснРФ10514 = value;
-                    }
-                    public String getВзЗавис() {
-                        return взЗавис;
-                    }
-                    public void setВзЗавис(String value) {
-                        this.взЗавис = value;
-                    }
-
-
-                    @XmlAccessorType(XmlAccessType.FIELD)
-                    @XmlType(name = "")
-                    public static class Осн10514 {
-
-                        @XmlAttribute(name = "Осн121", required = true)
-                        protected String осн121;
-                        @XmlAttribute(name = "Осн122", required = true)
-                        protected String осн122;
-                        @XmlAttribute(name = "Осн123", required = true)
-                        protected String осн123;
-                        @XmlAttribute(name = "Осн124", required = true)
-                        protected String осн124;
-
-                        public String getОсн121() {
-                            return осн121;
-                        }
-                        public void setОсн121(String value) {
-                            this.осн121 = value;
-                        }
-                        public String getОсн122() {
-                            return осн122;
-                        }
-                        public void setОсн122(String value) {
-                            this.осн122 = value;
-                        }
-                        public String getОсн123() {
-                            return осн123;
-                        }
-                        public void setОсн123(String value) {
-                            this.осн123 = value;
-                        }
-                        public String getОсн124() {
-                            return осн124;
-                        }
-                        public void setОсн124(String value) {
-                            this.осн124 = value;
-                        }
-                    }
-
-
-                    @XmlAccessorType(XmlAccessType.FIELD)
-                    @XmlType(name = "")
-                    public static class ОснРФ10514 {
-
-                        @XmlAttribute(name = "Осн131", required = true)
-                        protected String осн131;
-                        @XmlAttribute(name = "Осн132", required = true)
-                        protected String осн132;
-                        @XmlAttribute(name = "Осн133", required = true)
-                        protected String осн133;
-                        @XmlAttribute(name = "Осн134", required = true)
-                        protected String осн134;
-                        @XmlAttribute(name = "Осн135", required = true)
-                        protected String осн135;
-
-                        public String getОсн131() {
-                            return осн131;
-                        }
-                        public void setОсн131(String value) {
-                            this.осн131 = value;
-                        }
-                        public String getОсн132() { return осн132; }
-                        public void setОсн132(String value) {
-                            this.осн132 = value;
-                        }
-                        public String getОсн133() {
-                            return осн133;
-                        }
-                        public void setОсн133(String value) {
-                            this.осн133 = value;
-                        }
-                        public String getОсн134() {
-                            return осн134;
-                        }
-                        public void setОсн134(String value) {
-                            this.осн134 = value;
-                        }
-                        public String getОсн135() {
-                            return осн135;
-                        }
-                        public void setОсн135(String value) {
-                            this.осн135 = value;
-                        }
-                    }
+                public void setРќРѕРјРџРѕСЂРЎРґ(BigInteger value) {
+                    this.РЅРѕРјРџРѕСЂРЎРґ = value;
                 }
 
 
                 @XmlAccessorType(XmlAccessType.FIELD)
                 @XmlType(name = "")
-                public static class СвОргУчаст {
+                public static class Р”РѕС…Р Р°СЃС…РЎРґ {
 
-                    @XmlAttribute(name = "НомПорСд", required = true)
-                    protected BigInteger номПорСд;
-                    @XmlAttribute(name = "ПрОрг", required = true)
-                    protected String прОрг;
-                    @XmlAttribute(name = "ОКСМ", required = true)
-                    protected String оксм;
-                    @XmlAttribute(name = "НаимОрг", required = true)
-                    protected String наимОрг;
-                    @XmlAttribute(name = "ИННЮЛ")
-                    protected String иннюл;
-                    @XmlAttribute(name = "КПП")
-                    protected String кпп;
-                    @XmlAttribute(name = "РегНомИн")
-                    protected String регНомИн;
-                    @XmlAttribute(name = "КодНПРег")
-                    protected String кодНПРег;
-                    @XmlAttribute(name = "АдрИнТекст")
-                    protected String адрИнТекст;
+                    @XmlAttribute(name = "РЎСѓРјР”РѕС…РЎРґ", required = true)
+                    protected BigInteger СЃСѓРјР”РѕС…РЎРґ;
+                    @XmlAttribute(name = "РЎСѓРјР”РѕС…РЎРґР РµРі")
+                    protected BigInteger СЃСѓРјР”РѕС…РЎРґР РµРі;
+                    @XmlAttribute(name = "РЎСѓРјР Р°СЃС…РЎРґ", required = true)
+                    protected BigInteger СЃСѓРјР Р°СЃС…РЎРґ;
+                    @XmlAttribute(name = "РЎСѓРјР Р°СЃС…РЎРґР РµРі")
+                    protected BigInteger СЃСѓРјР Р°СЃС…РЎРґР РµРі;
 
-                    public BigInteger getНомПорСд() {
-                        return номПорСд;
+                    public BigInteger getРЎСѓРјР”РѕС…РЎРґ() {
+                        return СЃСѓРјР”РѕС…РЎРґ;
                     }
-                    public void setНомПорСд(BigInteger value) {
-                        this.номПорСд = value;
+                    public void setРЎСѓРјР”РѕС…РЎРґ(BigInteger value) {
+                        this.СЃСѓРјР”РѕС…РЎРґ = value;
                     }
-                    public String getПрОрг() {
-                        return прОрг;
+                    public BigInteger getРЎСѓРјР”РѕС…РЎРґР РµРі() {
+                        return СЃСѓРјР”РѕС…РЎРґР РµРі;
                     }
-                    public void setПрОрг(String value) {
-                        this.прОрг = value;
+                    public void setРЎСѓРјР”РѕС…РЎРґР РµРі(BigInteger value) {
+                        this.СЃСѓРјР”РѕС…РЎРґР РµРі = value;
                     }
-                    public String getОКСМ() {
-                        return оксм;
+                    public BigInteger getРЎСѓРјР Р°СЃС…РЎРґ() {
+                        return СЃСѓРјР Р°СЃС…РЎРґ;
                     }
-                    public void setОКСМ(String value) {
-                        this.оксм = value;
+                    public void setРЎСѓРјР Р°СЃС…РЎРґ(BigInteger value) {
+                        this.СЃСѓРјР Р°СЃС…РЎРґ = value;
                     }
-                    public String getНаимОрг() {
-                        return наимОрг;
+                    public BigInteger getРЎСѓРјР Р°СЃС…РЎРґР РµРі() {
+                        return СЃСѓРјР Р°СЃС…РЎРґР РµРі;
                     }
-                    public void setНаимОрг(String value) {
-                        this.наимОрг = value;
-                    }
-                    public String getИННЮЛ() {
-                        return иннюл;
-                    }
-                    public void setИННЮЛ(String value) {
-                        this.иннюл = value;
-                    }
-                    public String getКПП() {
-                        return кпп;
-                    }
-                    public void setКПП(String value) {
-                        this.кпп = value;
-                    }
-                    public String getРегНомИн() {
-                        return регНомИн;
-                    }
-                    public void setРегНомИн(String value) {
-                        this.регНомИн = value;
-                    }
-                    public String getКодНПРег() {
-                        return кодНПРег;
-                    }
-                    public void setКодНПРег(String value) {
-                        this.кодНПРег = value;
-                    }
-                    public String getАдрИнТекст() {
-                        return адрИнТекст;
-                    }
-                    public void setАдрИнТекст(String value) {
-                        this.адрИнТекст = value;
+                    public void setРЎСѓРјР Р°СЃС…РЎРґР РµРі(BigInteger value) {
+                        this.СЃСѓРјР Р°СЃС…РЎРґР РµРі = value;
                     }
                 }
 
 
                 @XmlAccessorType(XmlAccessType.FIELD)
-                @XmlType(name = "", propOrder = { "перПредСд" })
-                public static class СвПредмСд {
+                @XmlType(name = "", propOrder = { "РєРѕРґРСЃС‚РРЅС„" })
+                public static class РљРѕРЅС‚СЂРЎРґ {
 
-                    @XmlElement(name = "ПерПредСд", required = true)
-                    protected List<Файл2012.Документ.УвКонтрСд.СвКонтрСд.СвПредмСд.ПерПредСд> перПредСд;
+                    @XmlElement(name = "РљРѕРґРСЃС‚РРЅС„")
+                    protected Р¤Р°Р№Р»2012.Р”РѕРєСѓРјРµРЅС‚.РЈРІРљРѕРЅС‚СЂРЎРґ.РЎРІРљРѕРЅС‚СЂРЎРґ.РљРѕРЅС‚СЂРЎРґ.РљРѕРґРСЃС‚РРЅС„ РєРѕРґРСЃС‚РРЅС„;
 
-                    @XmlAttribute(name = "ТипПредСд", required = true)
-                    protected String типПредСд;
+                    @XmlAttribute(name = "Р“СЂСѓРїРћРЎ", required = true)
+                    protected String РіСЂСѓРїРћРЎ;
+                    @XmlAttribute(name = "РљРѕРґРќР°РёРјРЎРґ", required = true)
+                    protected String РєРѕРґРќР°РёРјРЎРґ;
+                    @XmlAttribute(name = "РљРѕРґРЎС‚РѕСЂРЎРґ", required = true)
+                    protected String РєРѕРґРЎС‚РѕСЂРЎРґ;
+                    @XmlAttribute(name = "РџСЂРћРїСЂР¦РµРЅ", required = true)
+                    protected String РїСЂРћРїСЂР¦РµРЅ;
+                    @XmlAttribute(name = "РљРѕРјРџСЂРћРїСЂР¦РµРЅ")
+                    protected String РєРѕРјРџСЂРћРїСЂР¦РµРЅ;
+                    @XmlAttribute(name = "РљРѕРґРћРїСЂР¦РµРЅ", required = true)
+                    protected String РєРѕРґРћРїСЂР¦РµРЅ;
+                    @XmlAttribute(name = "РљРѕРјРљРѕРґРћРїСЂР¦РµРЅ")
+                    protected String РєРѕРјРљРѕРґРћРїСЂР¦РµРЅ;
+                    @XmlAttribute(name = "РљРѕРґРњРµС‚Р¦РµРЅ")
+                    protected String РєРѕРґРњРµС‚Р¦РµРЅ;
+                    @XmlAttribute(name = "РљРѕРјРљРѕРґРњРµС‚Р¦РµРЅ")
+                    protected String РєРѕРјРљРѕРґРњРµС‚Р¦РµРЅ;
+                    @XmlAttribute(name = "РљРѕР»РЈС‡РЎРґ", required = true)
+                    protected BigInteger РєРѕР»РЈС‡РЎРґ;
+                    @XmlAttribute(name = "РљРѕРјРљРѕР»РЈС‡РЎРґ")
+                    protected String РєРѕРјРљРѕР»РЈС‡РЎРґ;
 
-                    public List<Файл2012.Документ.УвКонтрСд.СвКонтрСд.СвПредмСд.ПерПредСд> getПерПредСд() {
-                        if (перПредСд == null) {
-                            перПредСд = new ArrayList<Файл2012.Документ.УвКонтрСд.СвКонтрСд.СвПредмСд.ПерПредСд>();
-                        }
-                        return this.перПредСд;
+                    public Р¤Р°Р№Р»2012.Р”РѕРєСѓРјРµРЅС‚.РЈРІРљРѕРЅС‚СЂРЎРґ.РЎРІРљРѕРЅС‚СЂРЎРґ.РљРѕРЅС‚СЂРЎРґ.РљРѕРґРСЃС‚РРЅС„ getРљРѕРґРСЃС‚РРЅС„() {
+                        return РєРѕРґРСЃС‚РРЅС„;
                     }
-                    public void setПерПредСд(List<Файл2012.Документ.УвКонтрСд.СвКонтрСд.СвПредмСд.ПерПредСд> value){
-                        this.перПредСд = value;
+                    public void setРљРѕРґРСЃС‚РРЅС„(Р¤Р°Р№Р»2012.Р”РѕРєСѓРјРµРЅС‚.РЈРІРљРѕРЅС‚СЂРЎРґ.РЎРІРљРѕРЅС‚СЂРЎРґ.РљРѕРЅС‚СЂРЎРґ.РљРѕРґРСЃС‚РРЅС„ value) {
+                        this.РєРѕРґРСЃС‚РРЅС„ = value;
                     }
-                    public String getТипПредСд() {
-                        return типПредСд;
+                    public String getР“СЂСѓРїРћРЎ() {
+                        return РіСЂСѓРїРћРЎ;
                     }
-                    public void setТипПредСд(String value) {
-                        this.типПредСд = value;
+                    public void setР“СЂСѓРїРћРЎ(String value) {
+                        this.РіСЂСѓРїРћРЎ = value;
+                    }
+                    public String getРљРѕРґРќР°РёРјРЎРґ() {
+                        return РєРѕРґРќР°РёРјРЎРґ;
+                    }
+                    public void setРљРѕРґРќР°РёРјРЎРґ(String value) {
+                        this.РєРѕРґРќР°РёРјРЎРґ = value;
+                    }
+                    public String getРљРѕРґРЎС‚РѕСЂРЎРґ() {
+                        return РєРѕРґРЎС‚РѕСЂРЎРґ;
+                    }
+                    public void setРљРѕРґРЎС‚РѕСЂРЎРґ(String value) {
+                        this.РєРѕРґРЎС‚РѕСЂРЎРґ = value;
+                    }
+                    public String getРџСЂРћРїСЂР¦РµРЅ() {
+                        return РїСЂРћРїСЂР¦РµРЅ;
+                    }
+                    public void setРџСЂРћРїСЂР¦РµРЅ(String value) {
+                        this.РїСЂРћРїСЂР¦РµРЅ = value;
+                    }
+                    public String getРљРѕРјРџСЂРћРїСЂР¦РµРЅ() {
+                        return РєРѕРјРџСЂРћРїСЂР¦РµРЅ;
+                    }
+                    public void setРљРѕРјРџСЂРћРїСЂР¦РµРЅ(String value) {
+                        this.РєРѕРјРџСЂРћРїСЂР¦РµРЅ = value;
+                    }
+                    public String getРљРѕРґРћРїСЂР¦РµРЅ() {
+                        return РєРѕРґРћРїСЂР¦РµРЅ;
+                    }
+                    public void setРљРѕРґРћРїСЂР¦РµРЅ(String value) {
+                        this.РєРѕРґРћРїСЂР¦РµРЅ = value;
+                    }
+                    public String getРљРѕРјРљРѕРґРћРїСЂР¦РµРЅ() {
+                        return РєРѕРјРљРѕРґРћРїСЂР¦РµРЅ;
+                    }
+                    public void setРљРѕРјРљРѕРґРћРїСЂР¦РµРЅ(String value) {
+                        this.РєРѕРјРљРѕРґРћРїСЂР¦РµРЅ = value;
+                    }
+                    public String getРљРѕРґРњРµС‚Р¦РµРЅ() {
+                        return РєРѕРґРњРµС‚Р¦РµРЅ;
+                    }
+                    public void setРљРѕРґРњРµС‚Р¦РµРЅ(String value) {
+                        this.РєРѕРґРњРµС‚Р¦РµРЅ = value;
+                    }
+                    public String getРљРѕРјРљРѕРґРњРµС‚Р¦РµРЅ() {
+                        return РєРѕРјРљРѕРґРњРµС‚Р¦РµРЅ;
+                    }
+                    public void setРљРѕРјРљРѕРґРњРµС‚Р¦РµРЅ(String value) {
+                        this.РєРѕРјРљРѕРґРњРµС‚Р¦РµРЅ = value;
+                    }
+                    public BigInteger getРљРѕР»РЈС‡РЎРґ() {
+                        return РєРѕР»РЈС‡РЎРґ;
+                    }
+                    public void setРљРѕР»РЈС‡РЎРґ(BigInteger value) {
+                        this.РєРѕР»РЈС‡РЎРґ = value;
+                    }
+                    public String getРљРѕРјРљРѕР»РЈС‡РЎРґ() {
+                        return РєРѕРјРљРѕР»РЈС‡РЎРґ;
+                    }
+                    public void setРљРѕРјРљРѕР»РЈС‡РЎРґ(String value) {
+                        this.РєРѕРјРљРѕР»РЈС‡РЎРґ = value;
                     }
 
 
                     @XmlAccessorType(XmlAccessType.FIELD)
-                    @XmlType(name = "", propOrder = { "местОтпрТов", "местСовСд" })
-                    public static class ПерПредСд {
+                    @XmlType(name = "")
+                    public static class РљРѕРґРСЃС‚РРЅС„ {
 
-                        @XmlElement(name = "МестОтпрТов")
-                        protected МестоТип местОтпрТов;
-                        @XmlElement(name = "МестСовСд")
-                        protected МестоТип местСовСд;
+                        @XmlAttribute(name = "РСЃС‚251", required = true)
+                        protected String РёСЃС‚251;
+                        @XmlAttribute(name = "РСЃС‚252", required = true)
+                        protected String РёСЃС‚252;
+                        @XmlAttribute(name = "РСЃС‚253", required = true)
+                        protected String РёСЃС‚253;
+                        @XmlAttribute(name = "РСЃС‚254", required = true)
+                        protected String РёСЃС‚254;
+                        @XmlAttribute(name = "РСЃС‚255", required = true)
+                        protected String РёСЃС‚255;
+                        @XmlAttribute(name = "РСЃС‚256", required = true)
+                        protected String РёСЃС‚256;
+                        @XmlAttribute(name = "РСЃС‚257", required = true)
+                        protected String РёСЃС‚257;
+                        @XmlAttribute(name = "РСЃС‚258", required = true)
+                        protected String РёСЃС‚258;
+                        @XmlAttribute(name = "РСЃС‚259", required = true)
+                        protected String РёСЃС‚259;
 
-                        @XmlAttribute(name = "НаимПредСд", required = true)
-                        protected String наимПредСд;
-                        @XmlAttribute(name = "ТНВЭД")
-                        protected String тнвэд;
-                        @XmlAttribute(name = "ОКП")
-                        protected String окп;
-                        @XmlAttribute(name = "ОКВЭД")
-                        protected String оквэд;
-                        @XmlAttribute(name = "НомУчСд", required = true)
-                        protected BigInteger номУчСд;
-                        @XmlAttribute(name = "НомДог", required = true)
-                        protected String номДог;
-                        @XmlAttribute(name = "ДатаДог", required = true)
-                        protected String датаДог;
-                        @XmlAttribute(name = "ОКСМ")
-                        protected String оксм;
-                        @XmlAttribute(name = "КодУсловПост")
-                        protected String кодУсловПост;
-                        @XmlAttribute(name = "ОКЕИ", required = true)
-                        protected String океи;
-                        @XmlAttribute(name = "Количество", required = true)
-                        protected BigInteger количество;
-                        @XmlAttribute(name = "ЦенаЕдин", required = true)
-                        protected BigInteger ценаЕдин;
-                        @XmlAttribute(name = "СтоимИтог", required = true)
-                        protected BigInteger стоимИтог;
-                        @XmlAttribute(name = "ДатаСовСд", required = true)
-                        protected String датаСовСд;
-
-                        public МестоТип getМестОтпрТов() {
-                            return местОтпрТов;
+                        public String getРСЃС‚251() {
+                            return РёСЃС‚251;
                         }
-                        public void setМестОтпрТов(МестоТип value) {
-                            this.местОтпрТов = value;
+                        public void setРСЃС‚251(String value) {
+                            this.РёСЃС‚251 = value;
                         }
-                        public МестоТип getМестСовСд() {
-                            return местСовСд;
+                        public String getРСЃС‚252() {
+                            return РёСЃС‚252;
                         }
-                        public void setМестСовСд(МестоТип value) {
-                            this.местСовСд = value;
+                        public void setРСЃС‚252(String value) {
+                            this.РёСЃС‚252 = value;
                         }
-                        public String getНаимПредСд() {
-                            return наимПредСд;
+                        public String getРСЃС‚253() {
+                            return РёСЃС‚253;
                         }
-                        public void setНаимПредСд(String value) {
-                            this.наимПредСд = value;
+                        public void setРСЃС‚253(String value) {
+                            this.РёСЃС‚253 = value;
                         }
-                        public String getТНВЭД() {
-                            return тнвэд;
+                        public String getРСЃС‚254() {
+                            return РёСЃС‚254;
                         }
-                        public void setТНВЭД(String value) {
-                            this.тнвэд = value;
+                        public void setРСЃС‚254(String value) {
+                            this.РёСЃС‚254 = value;
                         }
-                        public String getОКП() {
-                            return окп;
+                        public String getРСЃС‚255() {
+                            return РёСЃС‚255;
                         }
-                        public void setОКП(String value) {
-                            this.окп = value;
+                        public void setРСЃС‚255(String value) {
+                            this.РёСЃС‚255 = value;
                         }
-                        public String getОКВЭД() {
-                            return оквэд;
+                        public String getРСЃС‚256() {
+                            return РёСЃС‚256;
                         }
-                        public void setОКВЭД(String value) {
-                            this.оквэд = value;
+                        public void setРСЃС‚256(String value) {
+                            this.РёСЃС‚256 = value;
                         }
-                        public BigInteger getНомУчСд() {
-                            return номУчСд;
+                        public String getРСЃС‚257() {
+                            return РёСЃС‚257;
                         }
-                        public void setНомУчСд(BigInteger value) {
-                            this.номУчСд = value;
+                        public void setРСЃС‚257(String value) {
+                            this.РёСЃС‚257 = value;
                         }
-                        public String getНомДог() {
-                            return номДог;
+                        public String getРСЃС‚258() {
+                            return РёСЃС‚258;
                         }
-                        public void setНомДог(String value) {
-                            this.номДог = value;
+                        public void setРСЃС‚258(String value) {
+                            this.РёСЃС‚258 = value;
                         }
-                        public String getДатаДог() {
-                            return датаДог;
+                        public String getРСЃС‚259() {
+                            return РёСЃС‚259;
                         }
-                        public void setДатаДог(String value) {
-                            this.датаДог = value;
-                        }
-                        public String getОКСМ() {
-                            return оксм;
-                        }
-                        public void setОКСМ(String value) {
-                            this.оксм = value;
-                        }
-                        public String getКодУсловПост() {
-                            return кодУсловПост;
-                        }
-                        public void setКодУсловПост(String value) {
-                            this.кодУсловПост = value;
-                        }
-                        public String getОКЕИ() {
-                            return океи;
-                        }
-                        public void setОКЕИ(String value) {
-                            this.океи = value;
-                        }
-                        public BigInteger getКоличество() {
-                            return количество;
-                        }
-                        public void setКоличество(BigInteger value) {
-                            this.количество = value;
-                        }
-                        public BigInteger getЦенаЕдин() {
-                            return ценаЕдин;
-                        }
-                        public void setЦенаЕдин(BigInteger value) {
-                            this.ценаЕдин = value;
-                        }
-                        public BigInteger getСтоимИтог() {
-                            return стоимИтог;
-                        }
-                        public void setСтоимИтог(BigInteger value) {
-                            this.стоимИтог = value;
-                        }
-                        public String getДатаСовСд() {
-                            return датаСовСд;
-                        }
-                        public void setДатаСовСд(String value) {
-                            this.датаСовСд = value;
+                        public void setРСЃС‚259(String value) {
+                            this.РёСЃС‚259 = value;
                         }
                     }
                 }
 
 
                 @XmlAccessorType(XmlAccessType.FIELD)
-                @XmlType(name = "", propOrder = { "фио", "иннфл", "свФЛ" })
-                public static class СвФЛУчаст {
+                @XmlType(name = "", propOrder = { "РѕСЃРЅ10514", "РѕСЃРЅР Р¤10514" })
+                public static class РћСЃРЅРљРѕРЅС‚СЂРЎРґ {
 
-                    @XmlElement(name = "ФИО", required = true)
-                    protected ФИОТип фио;
-                    @XmlElement(name = "ИННФЛ")
-                    protected String иннфл;
-                    @XmlElement(name = "СвФЛ")
-                    protected Файл2012.Документ.УвКонтрСд.СвКонтрСд.СвФЛУчаст.СвФЛ свФЛ;
+                    @XmlElement(name = "РћСЃРЅ105.14", required = true)
+                    protected Р¤Р°Р№Р»2012.Р”РѕРєСѓРјРµРЅС‚.РЈРІРљРѕРЅС‚СЂРЎРґ.РЎРІРљРѕРЅС‚СЂРЎРґ.РћСЃРЅРљРѕРЅС‚СЂРЎРґ.РћСЃРЅ10514 РѕСЃРЅ10514;
+                    @XmlElement(name = "РћСЃРЅР Р¤105.14", required = true)
+                    protected Р¤Р°Р№Р»2012.Р”РѕРєСѓРјРµРЅС‚.РЈРІРљРѕРЅС‚СЂРЎРґ.РЎРІРљРѕРЅС‚СЂРЎРґ.РћСЃРЅРљРѕРЅС‚СЂРЎРґ.РћСЃРЅР Р¤10514 РѕСЃРЅР Р¤10514;
 
-                    @XmlAttribute(name = "НомПорСд", required = true)
-                    protected BigInteger номПорСд;
-                    @XmlAttribute(name = "КодВД", required = true)
-                    protected String кодВД;
+                    @XmlAttribute(name = "Р’Р·Р—Р°РІРёСЃ")
+                    protected String РІР·Р—Р°РІРёСЃ;
 
-                    public ФИОТип getФИО() {
-                        return фио;
+                    public Р¤Р°Р№Р»2012.Р”РѕРєСѓРјРµРЅС‚.РЈРІРљРѕРЅС‚СЂРЎРґ.РЎРІРљРѕРЅС‚СЂРЎРґ.РћСЃРЅРљРѕРЅС‚СЂРЎРґ.РћСЃРЅ10514 getРћСЃРЅ10514() {
+                        return РѕСЃРЅ10514;
                     }
-                    public void setФИО(ФИОТип value) {
-                        this.фио = value;
+                    public void setРћСЃРЅ10514(Р¤Р°Р№Р»2012.Р”РѕРєСѓРјРµРЅС‚.РЈРІРљРѕРЅС‚СЂРЎРґ.РЎРІРљРѕРЅС‚СЂРЎРґ.РћСЃРЅРљРѕРЅС‚СЂРЎРґ.РћСЃРЅ10514 value) {
+                        this.РѕСЃРЅ10514 = value;
                     }
-                    public String getИННФЛ() {
-                        return иннфл;
+                    public Р¤Р°Р№Р»2012.Р”РѕРєСѓРјРµРЅС‚.РЈРІРљРѕРЅС‚СЂРЎРґ.РЎРІРљРѕРЅС‚СЂРЎРґ.РћСЃРЅРљРѕРЅС‚СЂРЎРґ.РћСЃРЅР Р¤10514 getРћСЃРЅР Р¤10514() {
+                        return РѕСЃРЅР Р¤10514;
                     }
-                    public void setИННФЛ(String value) {
-                        this.иннфл = value;
+                    public void setРћСЃРЅР Р¤10514(Р¤Р°Р№Р»2012.Р”РѕРєСѓРјРµРЅС‚.РЈРІРљРѕРЅС‚СЂРЎРґ.РЎРІРљРѕРЅС‚СЂРЎРґ.РћСЃРЅРљРѕРЅС‚СЂРЎРґ.РћСЃРЅР Р¤10514 value) {
+                        this.РѕСЃРЅР Р¤10514 = value;
                     }
-                    public Файл2012.Документ.УвКонтрСд.СвКонтрСд.СвФЛУчаст.СвФЛ getСвФЛ() {
-                        return свФЛ;
+                    public String getР’Р·Р—Р°РІРёСЃ() {
+                        return РІР·Р—Р°РІРёСЃ;
                     }
-                    public void setСвФЛ(Файл2012.Документ.УвКонтрСд.СвКонтрСд.СвФЛУчаст.СвФЛ value) {
-                        this.свФЛ = value;
-                    }
-                    public BigInteger getНомПорСд() {
-                        return номПорСд;
-                    }
-                    public void setНомПорСд(BigInteger value) {
-                        this.номПорСд = value;
-                    }
-                    public String getКодВД() {
-                        return кодВД;
-                    }
-                    public void setКодВД(String value) {
-                        this.кодВД = value;
+                    public void setР’Р·Р—Р°РІРёСЃ(String value) {
+                        this.РІР·Р—Р°РІРёСЃ = value;
                     }
 
 
                     @XmlAccessorType(XmlAccessType.FIELD)
-                    @XmlType(name = "", propOrder = { "удЛичнФЛ", "свАдрРФ", "адрИн" })
-                    public static class СвФЛ {
+                    @XmlType(name = "")
+                    public static class РћСЃРЅ10514 {
 
-                        @XmlElement(name = "УдЛичнФЛ", required = true)
-                        protected УдЛичнФЛТип удЛичнФЛ;
-                        @XmlElement(name = "СвАдрРФ", required = true)
-                        protected СвАдрРФТип свАдрРФ;
-                        @XmlElement(name = "АдрИн")
-                        protected АдрИнТип адрИн;
+                        @XmlAttribute(name = "РћСЃРЅ121", required = true)
+                        protected String РѕСЃРЅ121;
+                        @XmlAttribute(name = "РћСЃРЅ122", required = true)
+                        protected String РѕСЃРЅ122;
+                        @XmlAttribute(name = "РћСЃРЅ123", required = true)
+                        protected String РѕСЃРЅ123;
+                        @XmlAttribute(name = "РћСЃРЅ124", required = true)
+                        protected String РѕСЃРЅ124;
 
-                        @XmlAttribute(name = "ДатаРожд", required = true)
-                        protected String датаРожд;
-                        @XmlAttribute(name = "МестоРожд", required = true)
-                        protected String местоРожд;
-                        @XmlAttribute(name = "НалГражд", required = true)
-                        protected String налГражд;
-                        @XmlAttribute(name = "ОКСМ", required = true)
-                        protected String оксм;
+                        public String getРћСЃРЅ121() {
+                            return РѕСЃРЅ121;
+                        }
+                        public void setРћСЃРЅ121(String value) {
+                            this.РѕСЃРЅ121 = value;
+                        }
+                        public String getРћСЃРЅ122() {
+                            return РѕСЃРЅ122;
+                        }
+                        public void setРћСЃРЅ122(String value) {
+                            this.РѕСЃРЅ122 = value;
+                        }
+                        public String getРћСЃРЅ123() {
+                            return РѕСЃРЅ123;
+                        }
+                        public void setРћСЃРЅ123(String value) {
+                            this.РѕСЃРЅ123 = value;
+                        }
+                        public String getРћСЃРЅ124() {
+                            return РѕСЃРЅ124;
+                        }
+                        public void setРћСЃРЅ124(String value) {
+                            this.РѕСЃРЅ124 = value;
+                        }
+                    }
 
-                        public УдЛичнФЛТип getУдЛичнФЛ() {
-                            return удЛичнФЛ;
+
+                    @XmlAccessorType(XmlAccessType.FIELD)
+                    @XmlType(name = "")
+                    public static class РћСЃРЅР Р¤10514 {
+
+                        @XmlAttribute(name = "РћСЃРЅ131", required = true)
+                        protected String РѕСЃРЅ131;
+                        @XmlAttribute(name = "РћСЃРЅ132", required = true)
+                        protected String РѕСЃРЅ132;
+                        @XmlAttribute(name = "РћСЃРЅ133", required = true)
+                        protected String РѕСЃРЅ133;
+                        @XmlAttribute(name = "РћСЃРЅ134", required = true)
+                        protected String РѕСЃРЅ134;
+                        @XmlAttribute(name = "РћСЃРЅ135", required = true)
+                        protected String РѕСЃРЅ135;
+
+                        public String getРћСЃРЅ131() {
+                            return РѕСЃРЅ131;
                         }
-                        public void setУдЛичнФЛ(УдЛичнФЛТип value) {
-                            this.удЛичнФЛ = value;
+                        public void setРћСЃРЅ131(String value) {
+                            this.РѕСЃРЅ131 = value;
                         }
-                        public СвАдрРФТип getСвАдрРФ() {
-                            return свАдрРФ;
+                        public String getРћСЃРЅ132() { return РѕСЃРЅ132; }
+                        public void setРћСЃРЅ132(String value) {
+                            this.РѕСЃРЅ132 = value;
                         }
-                        public void setСвАдрРФ(СвАдрРФТип value) {
-                            this.свАдрРФ = value;
+                        public String getРћСЃРЅ133() {
+                            return РѕСЃРЅ133;
                         }
-                        public АдрИнТип getАдрИн() {
-                            return адрИн;
+                        public void setРћСЃРЅ133(String value) {
+                            this.РѕСЃРЅ133 = value;
                         }
-                        public void setАдрИн(АдрИнТип value) {
-                            this.адрИн = value;
+                        public String getРћСЃРЅ134() {
+                            return РѕСЃРЅ134;
                         }
-                        public String getДатаРожд() {
-                            return датаРожд;
+                        public void setРћСЃРЅ134(String value) {
+                            this.РѕСЃРЅ134 = value;
                         }
-                        public void setДатаРожд(String value) {
-                            this.датаРожд = value;
+                        public String getРћСЃРЅ135() {
+                            return РѕСЃРЅ135;
                         }
-                        public String getМестоРожд() {
-                            return местоРожд;
+                        public void setРћСЃРЅ135(String value) {
+                            this.РѕСЃРЅ135 = value;
                         }
-                        public void setМестоРожд(String value) {
-                            this.местоРожд = value;
+                    }
+                }
+
+
+                @XmlAccessorType(XmlAccessType.FIELD)
+                @XmlType(name = "")
+                public static class РЎРІРћСЂРіРЈС‡Р°СЃС‚ {
+
+                    @XmlAttribute(name = "РќРѕРјРџРѕСЂРЎРґ", required = true)
+                    protected BigInteger РЅРѕРјРџРѕСЂРЎРґ;
+                    @XmlAttribute(name = "РџСЂРћСЂРі", required = true)
+                    protected String РїСЂРћСЂРі;
+                    @XmlAttribute(name = "РћРљРЎРњ", required = true)
+                    protected String РѕРєСЃРј;
+                    @XmlAttribute(name = "РќР°РёРјРћСЂРі", required = true)
+                    protected String РЅР°РёРјРћСЂРі;
+                    @XmlAttribute(name = "РРќРќР®Р›")
+                    protected String РёРЅРЅСЋР»;
+                    @XmlAttribute(name = "РљРџРџ")
+                    protected String РєРїРї;
+                    @XmlAttribute(name = "Р РµРіРќРѕРјРРЅ")
+                    protected String СЂРµРіРќРѕРјРРЅ;
+                    @XmlAttribute(name = "РљРѕРґРќРџР РµРі")
+                    protected String РєРѕРґРќРџР РµРі;
+                    @XmlAttribute(name = "РђРґСЂРРЅРўРµРєСЃС‚")
+                    protected String Р°РґСЂРРЅРўРµРєСЃС‚;
+
+                    public BigInteger getРќРѕРјРџРѕСЂРЎРґ() {
+                        return РЅРѕРјРџРѕСЂРЎРґ;
+                    }
+                    public void setРќРѕРјРџРѕСЂРЎРґ(BigInteger value) {
+                        this.РЅРѕРјРџРѕСЂРЎРґ = value;
+                    }
+                    public String getРџСЂРћСЂРі() {
+                        return РїСЂРћСЂРі;
+                    }
+                    public void setРџСЂРћСЂРі(String value) {
+                        this.РїСЂРћСЂРі = value;
+                    }
+                    public String getРћРљРЎРњ() {
+                        return РѕРєСЃРј;
+                    }
+                    public void setРћРљРЎРњ(String value) {
+                        this.РѕРєСЃРј = value;
+                    }
+                    public String getРќР°РёРјРћСЂРі() {
+                        return РЅР°РёРјРћСЂРі;
+                    }
+                    public void setРќР°РёРјРћСЂРі(String value) {
+                        this.РЅР°РёРјРћСЂРі = value;
+                    }
+                    public String getРРќРќР®Р›() {
+                        return РёРЅРЅСЋР»;
+                    }
+                    public void setРРќРќР®Р›(String value) {
+                        this.РёРЅРЅСЋР» = value;
+                    }
+                    public String getРљРџРџ() {
+                        return РєРїРї;
+                    }
+                    public void setРљРџРџ(String value) {
+                        this.РєРїРї = value;
+                    }
+                    public String getР РµРіРќРѕРјРРЅ() {
+                        return СЂРµРіРќРѕРјРРЅ;
+                    }
+                    public void setР РµРіРќРѕРјРРЅ(String value) {
+                        this.СЂРµРіРќРѕРјРРЅ = value;
+                    }
+                    public String getРљРѕРґРќРџР РµРі() {
+                        return РєРѕРґРќРџР РµРі;
+                    }
+                    public void setРљРѕРґРќРџР РµРі(String value) {
+                        this.РєРѕРґРќРџР РµРі = value;
+                    }
+                    public String getРђРґСЂРРЅРўРµРєСЃС‚() {
+                        return Р°РґСЂРРЅРўРµРєСЃС‚;
+                    }
+                    public void setРђРґСЂРРЅРўРµРєСЃС‚(String value) {
+                        this.Р°РґСЂРРЅРўРµРєСЃС‚ = value;
+                    }
+                }
+
+
+                @XmlAccessorType(XmlAccessType.FIELD)
+                @XmlType(name = "", propOrder = { "РїРµСЂРџСЂРµРґРЎРґ" })
+                public static class РЎРІРџСЂРµРґРјРЎРґ {
+
+                    @XmlElement(name = "РџРµСЂРџСЂРµРґРЎРґ", required = true)
+                    protected List<Р¤Р°Р№Р»2012.Р”РѕРєСѓРјРµРЅС‚.РЈРІРљРѕРЅС‚СЂРЎРґ.РЎРІРљРѕРЅС‚СЂРЎРґ.РЎРІРџСЂРµРґРјРЎРґ.РџРµСЂРџСЂРµРґРЎРґ> РїРµСЂРџСЂРµРґРЎРґ;
+
+                    @XmlAttribute(name = "РўРёРїРџСЂРµРґРЎРґ", required = true)
+                    protected String С‚РёРїРџСЂРµРґРЎРґ;
+
+                    public List<Р¤Р°Р№Р»2012.Р”РѕРєСѓРјРµРЅС‚.РЈРІРљРѕРЅС‚СЂРЎРґ.РЎРІРљРѕРЅС‚СЂРЎРґ.РЎРІРџСЂРµРґРјРЎРґ.РџРµСЂРџСЂРµРґРЎРґ> getРџРµСЂРџСЂРµРґРЎРґ() {
+                        if (РїРµСЂРџСЂРµРґРЎРґ == null) {
+                            РїРµСЂРџСЂРµРґРЎРґ = new ArrayList<Р¤Р°Р№Р»2012.Р”РѕРєСѓРјРµРЅС‚.РЈРІРљРѕРЅС‚СЂРЎРґ.РЎРІРљРѕРЅС‚СЂРЎРґ.РЎРІРџСЂРµРґРјРЎРґ.РџРµСЂРџСЂРµРґРЎРґ>();
                         }
-                        public String getНалГражд() {
-                            return налГражд;
+                        return this.РїРµСЂРџСЂРµРґРЎРґ;
+                    }
+                    public void setРџРµСЂРџСЂРµРґРЎРґ(List<Р¤Р°Р№Р»2012.Р”РѕРєСѓРјРµРЅС‚.РЈРІРљРѕРЅС‚СЂРЎРґ.РЎРІРљРѕРЅС‚СЂРЎРґ.РЎРІРџСЂРµРґРјРЎРґ.РџРµСЂРџСЂРµРґРЎРґ> value){
+                        this.РїРµСЂРџСЂРµРґРЎРґ = value;
+                    }
+                    public String getРўРёРїРџСЂРµРґРЎРґ() {
+                        return С‚РёРїРџСЂРµРґРЎРґ;
+                    }
+                    public void setРўРёРїРџСЂРµРґРЎРґ(String value) {
+                        this.С‚РёРїРџСЂРµРґРЎРґ = value;
+                    }
+
+
+                    @XmlAccessorType(XmlAccessType.FIELD)
+                    @XmlType(name = "", propOrder = { "РјРµСЃС‚РћС‚РїСЂРўРѕРІ", "РјРµСЃС‚РЎРѕРІРЎРґ" })
+                    public static class РџРµСЂРџСЂРµРґРЎРґ {
+
+                        @XmlElement(name = "РњРµСЃС‚РћС‚РїСЂРўРѕРІ")
+                        protected РњРµСЃС‚РѕРўРёРї РјРµСЃС‚РћС‚РїСЂРўРѕРІ;
+                        @XmlElement(name = "РњРµСЃС‚РЎРѕРІРЎРґ")
+                        protected РњРµСЃС‚РѕРўРёРї РјРµСЃС‚РЎРѕРІРЎРґ;
+
+                        @XmlAttribute(name = "РќР°РёРјРџСЂРµРґРЎРґ", required = true)
+                        protected String РЅР°РёРјРџСЂРµРґРЎРґ;
+                        @XmlAttribute(name = "РўРќР’Р­Р”")
+                        protected String С‚РЅРІСЌРґ;
+                        @XmlAttribute(name = "РћРљРџ")
+                        protected String РѕРєРї;
+                        @XmlAttribute(name = "РћРљР’Р­Р”")
+                        protected String РѕРєРІСЌРґ;
+                        @XmlAttribute(name = "РќРѕРјРЈС‡РЎРґ", required = true)
+                        protected BigInteger РЅРѕРјРЈС‡РЎРґ;
+                        @XmlAttribute(name = "РќРѕРјР”РѕРі", required = true)
+                        protected String РЅРѕРјР”РѕРі;
+                        @XmlAttribute(name = "Р”Р°С‚Р°Р”РѕРі", required = true)
+                        protected String РґР°С‚Р°Р”РѕРі;
+                        @XmlAttribute(name = "РћРљРЎРњ")
+                        protected String РѕРєСЃРј;
+                        @XmlAttribute(name = "РљРѕРґРЈСЃР»РѕРІРџРѕСЃС‚")
+                        protected String РєРѕРґРЈСЃР»РѕРІРџРѕСЃС‚;
+                        @XmlAttribute(name = "РћРљР•Р", required = true)
+                        protected String РѕРєРµРё;
+                        @XmlAttribute(name = "РљРѕР»РёС‡РµСЃС‚РІРѕ", required = true)
+                        protected BigInteger РєРѕР»РёС‡РµСЃС‚РІРѕ;
+                        @XmlAttribute(name = "Р¦РµРЅР°Р•РґРёРЅ", required = true)
+                        protected BigInteger С†РµРЅР°Р•РґРёРЅ;
+                        @XmlAttribute(name = "РЎС‚РѕРёРјРС‚РѕРі", required = true)
+                        protected BigInteger СЃС‚РѕРёРјРС‚РѕРі;
+                        @XmlAttribute(name = "Р”Р°С‚Р°РЎРѕРІРЎРґ", required = true)
+                        protected String РґР°С‚Р°РЎРѕРІРЎРґ;
+
+                        public РњРµСЃС‚РѕРўРёРї getРњРµСЃС‚РћС‚РїСЂРўРѕРІ() {
+                            return РјРµСЃС‚РћС‚РїСЂРўРѕРІ;
                         }
-                        public void setНалГражд(String value) {
-                            this.налГражд = value;
+                        public void setРњРµСЃС‚РћС‚РїСЂРўРѕРІ(РњРµСЃС‚РѕРўРёРї value) {
+                            this.РјРµСЃС‚РћС‚РїСЂРўРѕРІ = value;
                         }
-                        public String getОКСМ() {
-                            return оксм;
+                        public РњРµСЃС‚РѕРўРёРї getРњРµСЃС‚РЎРѕРІРЎРґ() {
+                            return РјРµСЃС‚РЎРѕРІРЎРґ;
                         }
-                        public void setОКСМ(String value) {
-                            this.оксм = value;
+                        public void setРњРµСЃС‚РЎРѕРІРЎРґ(РњРµСЃС‚РѕРўРёРї value) {
+                            this.РјРµСЃС‚РЎРѕРІРЎРґ = value;
+                        }
+                        public String getРќР°РёРјРџСЂРµРґРЎРґ() {
+                            return РЅР°РёРјРџСЂРµРґРЎРґ;
+                        }
+                        public void setРќР°РёРјРџСЂРµРґРЎРґ(String value) {
+                            this.РЅР°РёРјРџСЂРµРґРЎРґ = value;
+                        }
+                        public String getРўРќР’Р­Р”() {
+                            return С‚РЅРІСЌРґ;
+                        }
+                        public void setРўРќР’Р­Р”(String value) {
+                            this.С‚РЅРІСЌРґ = value;
+                        }
+                        public String getРћРљРџ() {
+                            return РѕРєРї;
+                        }
+                        public void setРћРљРџ(String value) {
+                            this.РѕРєРї = value;
+                        }
+                        public String getРћРљР’Р­Р”() {
+                            return РѕРєРІСЌРґ;
+                        }
+                        public void setРћРљР’Р­Р”(String value) {
+                            this.РѕРєРІСЌРґ = value;
+                        }
+                        public BigInteger getРќРѕРјРЈС‡РЎРґ() {
+                            return РЅРѕРјРЈС‡РЎРґ;
+                        }
+                        public void setРќРѕРјРЈС‡РЎРґ(BigInteger value) {
+                            this.РЅРѕРјРЈС‡РЎРґ = value;
+                        }
+                        public String getРќРѕРјР”РѕРі() {
+                            return РЅРѕРјР”РѕРі;
+                        }
+                        public void setРќРѕРјР”РѕРі(String value) {
+                            this.РЅРѕРјР”РѕРі = value;
+                        }
+                        public String getР”Р°С‚Р°Р”РѕРі() {
+                            return РґР°С‚Р°Р”РѕРі;
+                        }
+                        public void setР”Р°С‚Р°Р”РѕРі(String value) {
+                            this.РґР°С‚Р°Р”РѕРі = value;
+                        }
+                        public String getРћРљРЎРњ() {
+                            return РѕРєСЃРј;
+                        }
+                        public void setРћРљРЎРњ(String value) {
+                            this.РѕРєСЃРј = value;
+                        }
+                        public String getРљРѕРґРЈСЃР»РѕРІРџРѕСЃС‚() {
+                            return РєРѕРґРЈСЃР»РѕРІРџРѕСЃС‚;
+                        }
+                        public void setРљРѕРґРЈСЃР»РѕРІРџРѕСЃС‚(String value) {
+                            this.РєРѕРґРЈСЃР»РѕРІРџРѕСЃС‚ = value;
+                        }
+                        public String getРћРљР•Р() {
+                            return РѕРєРµРё;
+                        }
+                        public void setРћРљР•Р(String value) {
+                            this.РѕРєРµРё = value;
+                        }
+                        public BigInteger getРљРѕР»РёС‡РµСЃС‚РІРѕ() {
+                            return РєРѕР»РёС‡РµСЃС‚РІРѕ;
+                        }
+                        public void setРљРѕР»РёС‡РµСЃС‚РІРѕ(BigInteger value) {
+                            this.РєРѕР»РёС‡РµСЃС‚РІРѕ = value;
+                        }
+                        public BigInteger getР¦РµРЅР°Р•РґРёРЅ() {
+                            return С†РµРЅР°Р•РґРёРЅ;
+                        }
+                        public void setР¦РµРЅР°Р•РґРёРЅ(BigInteger value) {
+                            this.С†РµРЅР°Р•РґРёРЅ = value;
+                        }
+                        public BigInteger getРЎС‚РѕРёРјРС‚РѕРі() {
+                            return СЃС‚РѕРёРјРС‚РѕРі;
+                        }
+                        public void setРЎС‚РѕРёРјРС‚РѕРі(BigInteger value) {
+                            this.СЃС‚РѕРёРјРС‚РѕРі = value;
+                        }
+                        public String getР”Р°С‚Р°РЎРѕРІРЎРґ() {
+                            return РґР°С‚Р°РЎРѕРІРЎРґ;
+                        }
+                        public void setР”Р°С‚Р°РЎРѕРІРЎРґ(String value) {
+                            this.РґР°С‚Р°РЎРѕРІРЎРґ = value;
+                        }
+                    }
+                }
+
+
+                @XmlAccessorType(XmlAccessType.FIELD)
+                @XmlType(name = "", propOrder = { "С„РёРѕ", "РёРЅРЅС„Р»", "СЃРІР¤Р›" })
+                public static class РЎРІР¤Р›РЈС‡Р°СЃС‚ {
+
+                    @XmlElement(name = "Р¤РРћ", required = true)
+                    protected Р¤РРћРўРёРї С„РёРѕ;
+                    @XmlElement(name = "РРќРќР¤Р›")
+                    protected String РёРЅРЅС„Р»;
+                    @XmlElement(name = "РЎРІР¤Р›")
+                    protected Р¤Р°Р№Р»2012.Р”РѕРєСѓРјРµРЅС‚.РЈРІРљРѕРЅС‚СЂРЎРґ.РЎРІРљРѕРЅС‚СЂРЎРґ.РЎРІР¤Р›РЈС‡Р°СЃС‚.РЎРІР¤Р› СЃРІР¤Р›;
+
+                    @XmlAttribute(name = "РќРѕРјРџРѕСЂРЎРґ", required = true)
+                    protected BigInteger РЅРѕРјРџРѕСЂРЎРґ;
+                    @XmlAttribute(name = "РљРѕРґР’Р”", required = true)
+                    protected String РєРѕРґР’Р”;
+
+                    public Р¤РРћРўРёРї getР¤РРћ() {
+                        return С„РёРѕ;
+                    }
+                    public void setР¤РРћ(Р¤РРћРўРёРї value) {
+                        this.С„РёРѕ = value;
+                    }
+                    public String getРРќРќР¤Р›() {
+                        return РёРЅРЅС„Р»;
+                    }
+                    public void setРРќРќР¤Р›(String value) {
+                        this.РёРЅРЅС„Р» = value;
+                    }
+                    public Р¤Р°Р№Р»2012.Р”РѕРєСѓРјРµРЅС‚.РЈРІРљРѕРЅС‚СЂРЎРґ.РЎРІРљРѕРЅС‚СЂРЎРґ.РЎРІР¤Р›РЈС‡Р°СЃС‚.РЎРІР¤Р› getРЎРІР¤Р›() {
+                        return СЃРІР¤Р›;
+                    }
+                    public void setРЎРІР¤Р›(Р¤Р°Р№Р»2012.Р”РѕРєСѓРјРµРЅС‚.РЈРІРљРѕРЅС‚СЂРЎРґ.РЎРІРљРѕРЅС‚СЂРЎРґ.РЎРІР¤Р›РЈС‡Р°СЃС‚.РЎРІР¤Р› value) {
+                        this.СЃРІР¤Р› = value;
+                    }
+                    public BigInteger getРќРѕРјРџРѕСЂРЎРґ() {
+                        return РЅРѕРјРџРѕСЂРЎРґ;
+                    }
+                    public void setРќРѕРјРџРѕСЂРЎРґ(BigInteger value) {
+                        this.РЅРѕРјРџРѕСЂРЎРґ = value;
+                    }
+                    public String getРљРѕРґР’Р”() {
+                        return РєРѕРґР’Р”;
+                    }
+                    public void setРљРѕРґР’Р”(String value) {
+                        this.РєРѕРґР’Р” = value;
+                    }
+
+
+                    @XmlAccessorType(XmlAccessType.FIELD)
+                    @XmlType(name = "", propOrder = { "СѓРґР›РёС‡РЅР¤Р›", "СЃРІРђРґСЂР Р¤", "Р°РґСЂРРЅ" })
+                    public static class РЎРІР¤Р› {
+
+                        @XmlElement(name = "РЈРґР›РёС‡РЅР¤Р›", required = true)
+                        protected РЈРґР›РёС‡РЅР¤Р›РўРёРї СѓРґР›РёС‡РЅР¤Р›;
+                        @XmlElement(name = "РЎРІРђРґСЂР Р¤", required = true)
+                        protected РЎРІРђРґСЂР Р¤РўРёРї СЃРІРђРґСЂР Р¤;
+                        @XmlElement(name = "РђРґСЂРРЅ")
+                        protected РђРґСЂРРЅРўРёРї Р°РґСЂРРЅ;
+
+                        @XmlAttribute(name = "Р”Р°С‚Р°Р РѕР¶Рґ", required = true)
+                        protected String РґР°С‚Р°Р РѕР¶Рґ;
+                        @XmlAttribute(name = "РњРµСЃС‚РѕР РѕР¶Рґ", required = true)
+                        protected String РјРµСЃС‚РѕР РѕР¶Рґ;
+                        @XmlAttribute(name = "РќР°Р»Р“СЂР°Р¶Рґ", required = true)
+                        protected String РЅР°Р»Р“СЂР°Р¶Рґ;
+                        @XmlAttribute(name = "РћРљРЎРњ", required = true)
+                        protected String РѕРєСЃРј;
+
+                        public РЈРґР›РёС‡РЅР¤Р›РўРёРї getРЈРґР›РёС‡РЅР¤Р›() {
+                            return СѓРґР›РёС‡РЅР¤Р›;
+                        }
+                        public void setРЈРґР›РёС‡РЅР¤Р›(РЈРґР›РёС‡РЅР¤Р›РўРёРї value) {
+                            this.СѓРґР›РёС‡РЅР¤Р› = value;
+                        }
+                        public РЎРІРђРґСЂР Р¤РўРёРї getРЎРІРђРґСЂР Р¤() {
+                            return СЃРІРђРґСЂР Р¤;
+                        }
+                        public void setРЎРІРђРґСЂР Р¤(РЎРІРђРґСЂР Р¤РўРёРї value) {
+                            this.СЃРІРђРґСЂР Р¤ = value;
+                        }
+                        public РђРґСЂРРЅРўРёРї getРђРґСЂРРЅ() {
+                            return Р°РґСЂРРЅ;
+                        }
+                        public void setРђРґСЂРРЅ(РђРґСЂРРЅРўРёРї value) {
+                            this.Р°РґСЂРРЅ = value;
+                        }
+                        public String getР”Р°С‚Р°Р РѕР¶Рґ() {
+                            return РґР°С‚Р°Р РѕР¶Рґ;
+                        }
+                        public void setР”Р°С‚Р°Р РѕР¶Рґ(String value) {
+                            this.РґР°С‚Р°Р РѕР¶Рґ = value;
+                        }
+                        public String getРњРµСЃС‚РѕР РѕР¶Рґ() {
+                            return РјРµСЃС‚РѕР РѕР¶Рґ;
+                        }
+                        public void setРњРµСЃС‚РѕР РѕР¶Рґ(String value) {
+                            this.РјРµСЃС‚РѕР РѕР¶Рґ = value;
+                        }
+                        public String getРќР°Р»Р“СЂР°Р¶Рґ() {
+                            return РЅР°Р»Р“СЂР°Р¶Рґ;
+                        }
+                        public void setРќР°Р»Р“СЂР°Р¶Рґ(String value) {
+                            this.РЅР°Р»Р“СЂР°Р¶Рґ = value;
+                        }
+                        public String getРћРљРЎРњ() {
+                            return РѕРєСЃРј;
+                        }
+                        public void setРћРљРЎРњ(String value) {
+                            this.РѕРєСЃРј = value;
                         }
                     }
                 }

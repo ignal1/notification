@@ -82,7 +82,7 @@ public class UserService implements UserDetailsService {
                     hostname,
                     user.getActivationCode()
             );
-            sendMessage(user.getEmail(), "Регистрация на Notification", message);
+            sendMessage(user.getEmail(), "Р РµРіРёСЃС‚СЂР°С†РёСЏ РЅР° Notification", message);
         } catch (Exception e){
             userRepository.delete(user);
             FileUtils.deleteDirectory(fileService.setPath(user.getUsername()).toFile());
@@ -282,7 +282,7 @@ public class UserService implements UserDetailsService {
                         hostname,
                         token
                 );
-                sendMessage(user.getEmail(), "Восстановление пароля на Notification", message);
+                sendMessage(user.getEmail(), "Р’РѕСЃСЃС‚Р°РЅРѕРІР»РµРЅРёРµ РїР°СЂРѕР»СЏ РЅР° Notification", message);
             } catch (Exception e){
                 passwordResetTokenRepository.delete(passwordResetToken);
                 model.addAttribute("message", "cannotSendEmail");

@@ -95,7 +95,7 @@ public class PublicDataController {
 
         if(password == null || password.equals("")){
             model.addAttribute("user", user);
-            model.addAttribute("blankPassword", "Поле не может быть пустым");
+            model.addAttribute("blankPassword", "РџРѕР»Рµ РЅРµ РјРѕР¶РµС‚ Р±С‹С‚СЊ РїСѓСЃС‚С‹Рј");
             return "newPassword";
         }
         else{

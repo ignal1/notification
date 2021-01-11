@@ -6,80 +6,80 @@ import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlType;
 
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "АдрРФТип")
-public class АдрРФТип {
+@XmlType(name = "РђРґСЂР Р¤РўРёРї")
+public class РђРґСЂР Р¤РўРёРї {
 
-    @XmlAttribute(name = "Индекс")
-    protected String индекс;
-    @XmlAttribute(name = "КодРегион", required = true)
-    protected String кодРегион;
-    @XmlAttribute(name = "Район")
-    protected String район;
-    @XmlAttribute(name = "Город")
-    protected String город;
-    @XmlAttribute(name = "НаселПункт")
-    protected String населПункт;
-    @XmlAttribute(name = "Улица")
-    protected String улица;
-    @XmlAttribute(name = "Дом")
-    protected String дом;
-    @XmlAttribute(name = "Корпус")
-    protected String корпус;
-    @XmlAttribute(name = "Кварт")
-    protected String кварт;
+    @XmlAttribute(name = "РРЅРґРµРєСЃ")
+    protected String РёРЅРґРµРєСЃ;
+    @XmlAttribute(name = "РљРѕРґР РµРіРёРѕРЅ", required = true)
+    protected String РєРѕРґР РµРіРёРѕРЅ;
+    @XmlAttribute(name = "Р Р°Р№РѕРЅ")
+    protected String СЂР°Р№РѕРЅ;
+    @XmlAttribute(name = "Р“РѕСЂРѕРґ")
+    protected String РіРѕСЂРѕРґ;
+    @XmlAttribute(name = "РќР°СЃРµР»РџСѓРЅРєС‚")
+    protected String РЅР°СЃРµР»РџСѓРЅРєС‚;
+    @XmlAttribute(name = "РЈР»РёС†Р°")
+    protected String СѓР»РёС†Р°;
+    @XmlAttribute(name = "Р”РѕРј")
+    protected String РґРѕРј;
+    @XmlAttribute(name = "РљРѕСЂРїСѓСЃ")
+    protected String РєРѕСЂРїСѓСЃ;
+    @XmlAttribute(name = "РљРІР°СЂС‚")
+    protected String РєРІР°СЂС‚;
 
-    public String getИндекс() {
-        return индекс;
+    public String getРРЅРґРµРєСЃ() {
+        return РёРЅРґРµРєСЃ;
     }
-    public void setИндекс(String value) {
-        this.индекс = value;
+    public void setРРЅРґРµРєСЃ(String value) {
+        this.РёРЅРґРµРєСЃ = value;
     }
-    public String getКодРегион() {
-        return кодРегион;
+    public String getРљРѕРґР РµРіРёРѕРЅ() {
+        return РєРѕРґР РµРіРёРѕРЅ;
     }
-    public void setКодРегион(String value) {
-        this.кодРегион = value;
+    public void setРљРѕРґР РµРіРёРѕРЅ(String value) {
+        this.РєРѕРґР РµРіРёРѕРЅ = value;
     }
-    public String getРайон() {
-        return район;
+    public String getР Р°Р№РѕРЅ() {
+        return СЂР°Р№РѕРЅ;
     }
-    public void setРайон(String value) {
-        this.район = value;
+    public void setР Р°Р№РѕРЅ(String value) {
+        this.СЂР°Р№РѕРЅ = value;
     }
-    public String getГород() {
-        return город;
+    public String getР“РѕСЂРѕРґ() {
+        return РіРѕСЂРѕРґ;
     }
-    public void setГород(String value) {
-        this.город = value;
+    public void setР“РѕСЂРѕРґ(String value) {
+        this.РіРѕСЂРѕРґ = value;
     }
-    public String getНаселПункт() {
-        return населПункт;
+    public String getРќР°СЃРµР»РџСѓРЅРєС‚() {
+        return РЅР°СЃРµР»РџСѓРЅРєС‚;
     }
-    public void setНаселПункт(String value) {
-        this.населПункт = value;
+    public void setРќР°СЃРµР»РџСѓРЅРєС‚(String value) {
+        this.РЅР°СЃРµР»РџСѓРЅРєС‚ = value;
     }
-    public String getУлица() {
-        return улица;
+    public String getРЈР»РёС†Р°() {
+        return СѓР»РёС†Р°;
     }
-    public void setУлица(String value) {
-        this.улица = value;
+    public void setРЈР»РёС†Р°(String value) {
+        this.СѓР»РёС†Р° = value;
     }
-    public String getДом() {
-        return дом;
+    public String getР”РѕРј() {
+        return РґРѕРј;
     }
-    public void setДом(String value) {
-        this.дом = value;
+    public void setР”РѕРј(String value) {
+        this.РґРѕРј = value;
     }
-    public String getКорпус() {
-        return корпус;
+    public String getРљРѕСЂРїСѓСЃ() {
+        return РєРѕСЂРїСѓСЃ;
     }
-    public void setКорпус(String value) {
-        this.корпус = value;
+    public void setРљРѕСЂРїСѓСЃ(String value) {
+        this.РєРѕСЂРїСѓСЃ = value;
     }
-    public String getКварт() {
-        return кварт;
+    public String getРљРІР°СЂС‚() {
+        return РєРІР°СЂС‚;
     }
-    public void setКварт(String value) {
-        this.кварт = value;
+    public void setРљРІР°СЂС‚(String value) {
+        this.РєРІР°СЂС‚ = value;
     }
 }

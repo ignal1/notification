@@ -7,27 +7,27 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "ÑâÀäğĞÔÒèï", propOrder = {
-        "àäğĞÔ"
+@XmlType(name = "Ğ¡Ğ²ĞĞ´Ñ€Ğ Ğ¤Ğ¢Ğ¸Ğ¿", propOrder = {
+        "Ğ°Ğ´Ñ€Ğ Ğ¤"
 })
-public class ÑâÀäğĞÔÒèï {
+public class Ğ¡Ğ²ĞĞ´Ñ€Ğ Ğ¤Ğ¢Ğ¸Ğ¿ {
 
-    @XmlElement(name = "ÀäğĞÔ", required = true)
-    protected ÀäğĞÔÒèï àäğĞÔ;
+    @XmlElement(name = "ĞĞ´Ñ€Ğ Ğ¤", required = true)
+    protected ĞĞ´Ñ€Ğ Ğ¤Ğ¢Ğ¸Ğ¿ Ğ°Ğ´Ñ€Ğ Ğ¤;
 
-    @XmlAttribute(name = "ÏğÀäğ", required = true)
-    protected String ïğÀäğ;
+    @XmlAttribute(name = "ĞŸÑ€ĞĞ´Ñ€", required = true)
+    protected String Ğ¿Ñ€ĞĞ´Ñ€;
 
-    public ÀäğĞÔÒèï getÀäğĞÔ() {
-        return àäğĞÔ;
+    public ĞĞ´Ñ€Ğ Ğ¤Ğ¢Ğ¸Ğ¿ getĞĞ´Ñ€Ğ Ğ¤() {
+        return Ğ°Ğ´Ñ€Ğ Ğ¤;
     }
-    public void setÀäğĞÔ(ÀäğĞÔÒèï value) {
-        this.àäğĞÔ = value;
+    public void setĞĞ´Ñ€Ğ Ğ¤(ĞĞ´Ñ€Ğ Ğ¤Ğ¢Ğ¸Ğ¿ value) {
+        this.Ğ°Ğ´Ñ€Ğ Ğ¤ = value;
     }
-    public String getÏğÀäğ() {
-        return ïğÀäğ;
+    public String getĞŸÑ€ĞĞ´Ñ€() {
+        return Ğ¿Ñ€ĞĞ´Ñ€;
     }
-    public void setÏğÀäğ(String value) {
-        this.ïğÀäğ = value;
+    public void setĞŸÑ€ĞĞ´Ñ€(String value) {
+        this.Ğ¿Ñ€ĞĞ´Ñ€ = value;
     }
 }
